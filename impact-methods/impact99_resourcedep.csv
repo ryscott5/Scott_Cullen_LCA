@@ -1,0 +1,748 @@
+UUID,Category,Sub category,Elementary flowname,Unit,resources - fossil fuels,resources - mineral extraction
+08a91e70-3ddc-11dd-93f0-0050c2490048,resource,in ground,"Aggregate, natural",kg,0,0
+fe0acd60-3ddc-11dd-aaa4-0050c2490048,resource,in air,Air,kg,0,0
+be3dc127-3f95-455a-af63-7e3f35717700,resource,in ground,Albite,kg,0,0
+a4b01216-5a08-4078-b5fd-16e437929eb9,resource,in ground,Aluminium,kg,0,0.080135
+0305b169-255d-4041-8f5d-6e095bcb6358,resource,unspecified,Aluminium,kg,0,0.080135
+8bc65fca-548d-4831-b102-391bbdd6bc8c,resource,in ground,"Aluminium, 24% in bauxite, 11% in crude ore, in ground",kg,0,0.080135
+6df9ea09-115a-4678-9f30-d92c877a46ec,resource,in ground,"Anhydrite, in ground",kg,0,0
+9dcebf82-e6b3-400d-98bb-353ac079cbe1,resource,in ground,Antimony,kg,0,0
+08a91e70-3ddc-11dd-97f9-0050c2490048,resource,in ground,Barite,kg,0,0
+c13beafb-2aed-4a52-b09a-78d28913b6ce,resource,in ground,"Barite, 15% in crude ore, in ground",kg,0,0
+ac3a8914-35f0-4c34-a956-f26b3a053e4a,resource,in ground,"Basalt, in ground",kg,0,0
+733b2c7c-60ef-4c1b-b9cb-c010e3fd2275,resource,in ground,Bauxite,kg,0,0
+0a1535df-c1a6-4cb9-bc4d-b5d71b8e7d6a,resource,land,Biotic Production,kg,0,0
+4aa7d05c-1cc7-4468-a017-e17ce80581b8,resource,land,Biotic Production,kg/a,0,0
+eead2933-c2be-4a53-a0bd-bd33b67e4145,resource,in ground,"Borax, in ground",kg,0,0
+094ded20-e873-4338-8d81-b570a1d65acc,resource,in ground,Boron,kg,0,0
+8eb500c5-e7d2-4275-800d-51d63eab8d40,resource,in ground,Bromine,kg,0,0
+61341186-aac8-4088-a2b7-ba50093bab6c,resource,in water,"Bromine, 0.0023% in water",kg,0,0
+5a70cbea-10de-477b-ba2f-c219884b39e1,resource,in ground,brown coal;  11.9 MJ/kg,kWh,0,0
+fb3fed88-dc84-4f40-be2d-757a002bcfa5,resource,in ground,Cadmium,kg,0,0
+621b1cf1-9b47-4c44-b71e-ebeb9afd9bbc,resource,in ground,"Cadmium, 0.30% in sulfide, Cd 0.18%, Pb, Zn, Ag, In, in ground",kg,0,0
+99ee393d-4bd1-4cc8-b0a0-d956865fb7bf,resource,in ground,"Calcite, in ground",kg,0,0
+943a98d1-5111-4a07-ba2c-6d1f8e70a815,resource,in ground,Calcium,kg,0,0
+600b1c44-b10d-4a1e-8426-62779c118d34,resource,in ground,"Calcium carbonate, in ground",kg,0,0
+08a91e70-3ddc-11dd-97ec-0050c2490048,resource,in ground,Calcium chloride,kg,0,0
+80bb6903-93b7-4c04-ac53-37775125af8d,resource,in ground,Carbon,kg,0,0
+cc6a1abb-b123-4ca6-8f16-38209df609be,resource,in air,"Carbon dioxide, in air",kg,0,0
+08a91e70-3ddc-11dd-923c-0050c2490048,resource,in air,"Carbon dioxide, land transformation",kg,0,0
+8c2fe757-6866-4ed2-9f89-81012ad774a0,resource,in ground,"Carbon, in organic matter, in soil",kg,0,0
+7a636bea-94c0-4774-a791-2512b7fbda94,resource,in ground,"Cerium, 24% in bastnasite, 2.4% in crude ore, in ground",kg,0,0
+bdb1d022-b426-48ac-853f-5ae6e5786873,resource,in ground,"Cerium, in ground",kg,0,0
+46fe6694-560b-4e2f-b1b8-25d451a6e1d8,resource,in water,Chlorine,kg,0,0
+08a91e70-3ddc-11dd-9f78-0050c2490048,resource,in ground,Chromium,kg,0,0.030859
+7f33171b-d351-479a-8074-f3d8db3ad50a,resource,unspecified,Chromium,kg,0,0.030859
+4390a7a6-ede6-4e7c-8176-7a348493c0d0,resource,in ground,"Chromium ore, in ground",kg,0,0.030859
+ef6dd09f-bddc-49b4-a207-dbaec2f07bb5,resource,in ground,"Chromium, 25.5% in chromite, 11.6% in crude ore, in ground",kg,0,0.030859
+c5f5aeb8-7558-4a0c-9594-27621b9cfbc5,resource,in ground,"Chrysotile, in ground",kg,0,0
+15545dca-018d-4f7f-aa1f-796b707180af,resource,in ground,"Cinnabar, in ground",kg,0,5.5724
+93806a54-46f5-409c-99c5-4144a1e73b5d,resource,in ground,"Clay, bentonite, in ground",kg,0,0
+f7519ca9-5ffc-41c3-a33e-806da82cfc0e,resource,in ground,"Clay, unspecified, in ground",kg,0,0
+52977b58-f9d3-411b-8620-0dc8d2d33cba,resource,unspecified,"Coal, 18 MJ per kg, in ground",kg,0,0
+7ae371af-8532-11e0-9d78-0800200c9a66,resource,in ground,"Coal, 26.4 MJ per kg, in ground",kg,0,0
+03599e77-3732-41ae-8d66-5e15c8bb34ba,resource,unspecified,"Coal, 26.4 MJ per kg, in ground",kg,0,0
+cec69965-a131-444d-94ed-a00677f6ef13,resource,unspecified,"Coal, 29.3 MJ per kg, in ground",kg,0,0
+213fa9a5-5d8d-4990-9b38-f2c064161346,resource,in ground,"Coal, bituminous, 24.8 MJ per kg, in ground",kg,0,0
+7ff56da9-d736-4903-b1ea-80ed85c5cfe0,resource,unspecified,"Coal, brown, 10 MJ per kg, in ground",kg,0,0
+b4502f91-3aba-4ab2-b495-7f124807c5d6,resource,unspecified,"Coal, brown, 8 MJ per kg, in ground",kg,0,0
+024c9722-1e88-412b-8c4b-10c532be8dca,resource,in ground,"Coal, brown, in ground",kg,0.018074,0
+fe0acd60-3ddc-11dd-a6f9-0050c2490048,resource,in ground,"Coal, brown, in ground",kWh,0,0
+c5f0467d-ea04-49db-ae3a-ee4c90a0394e,resource,unspecified,"Coal, brown, in ground",kg,0,0
+3945e033-dda4-4690-a889-f66e1f35b02d,resource,unspecified,"Coal, brown, in ground",kWh,0,0
+d8855b03-3e44-4f74-b72e-23a56de3b46b,resource,unspecified,"Coal, feedstock, 26.4 MJ per kg, in ground",kg,0,0
+7ae371b0-8532-11e0-9d78-0800200c9a66,resource,in ground,"Coal, hard, 30.7 MJ per kg, in ground",kg,0,0
+fe0acd60-3ddc-11dd-a6fc-0050c2490048,resource,in ground,"Coal, hard, unspecified, in ground",kWh,0,0
+b6d0042d-0ef8-49ed-9162-a07ff1ccf750,resource,in ground,"Coal, hard, unspecified, in ground",kg,0.04466,0
+1be19e70-468e-43dc-bfd0-f650dfb1db40,resource,unspecified,"Coal, hard, unspecified, in ground",kg,0,0
+d0779a5e-6969-4144-954e-ceb81fb83f15,resource,in ground,"Cobalt, in ground",kg,0,0
+15ecd7f4-7734-44ec-af1c-8d3a46d27f1f,resource,unspecified,"Cobalt, in ground",kg,0,0
+ec72c523-9e1a-466a-98c3-e4098e90fd27,resource,in ground,"Colemanite, in ground",kg,0,0
+f902acb7-fe29-404f-a123-b4ba634abca6,resource,land,Conv. to integr. arable land,m2,0,0
+fe0acd60-3ddc-11dd-ae5c-0050c2490048,resource,in ground,Copper,kg,0,0
+5bfe61f2-cefc-47e6-9704-3fab3ebbd4c9,resource,unspecified,Copper,kg,0,0
+6dc7167c-d1a5-4a11-a350-7d378f0771f6,resource,in ground,Copper ore (1.2%),kg,0,0
+195e2726-7b5e-4320-bf1e-990d0a22fd18,resource,in ground,"Copper ore, 0.14%, in ground",kg,0,0
+52730d7f-5d94-49e0-81a3-b73603ebb14c,resource,in ground,"Copper ore, 4%, in ground",kg,0,0
+7ae398b1-8532-11e0-9d78-0800200c9a66,resource,in ground,"Copper ore, in ground",kg,0,0
+6e52f0b5-5073-4fdc-8542-aa0bda49c80e,resource,in ground,"Copper ore, sulfidic, in ground",kg,0,0
+1aee4aa7-32e0-48e7-a6b5-73d8acf672d3,resource,in ground,"Copper, 0.52% in sulfide, Cu 0.27% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+8dc2a251-ffb4-4131-b3ad-54eaf3a71afe,resource,unspecified,"Copper, 0.52% in sulfide, Cu 0.27% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+1b35070a-eb57-4f0f-a27f-5ba181ff0d4d,resource,in ground,"Copper, 0.59% in sulfide, Cu 0.22% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+d58b689c-e3bd-43ae-b102-1b7c305f2d92,resource,unspecified,"Copper, 0.59% in sulfide, Cu 0.22% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+19988f5b-a9a6-48f3-9e8e-150b66a1bf12,resource,in ground,"Copper, 0.97% in sulfide, Cu 0.36% and Mo 4.1E-2% in crude ore, in ground",kg,0,1.2357
+b58a44f8-6381-4e60-bc45-33b85b77ccfb,resource,unspecified,"Copper, 0.97% in sulfide, Cu 0.36% and Mo 4.1E-2% in crude ore, in ground",kg,0,1.2357
+79df5650-160a-4ab7-a14f-cc8162877f4a,resource,in ground,"Copper, 0.99% in sulfide, Cu 0.36% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+b3b72095-a965-49a2-b47e-7acb8f2388e8,resource,unspecified,"Copper, 0.99% in sulfide, Cu 0.36% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+ed5ace5c-a203-4816-b33b-9fe0c5f0f519,resource,in ground,"Copper, 1.13% in sulfide, Cu 0.76% and Ni 0.76% in crude ore, in ground",kg,0,1.2357
+deee5b4a-14dd-4600-ba18-48221882d9b9,resource,unspecified,"Copper, 1.13% in sulfide, Cu 0.76% and Ni 0.76% in crude ore, in ground",kg,0,1.2357
+31998285-fb5c-411d-b853-ce78be2a0b49,resource,in ground,"Copper, 1.18% in sulfide, Cu 0.39% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+bcd7879c-1e11-4265-889a-dbdacbe6e72a,resource,unspecified,"Copper, 1.18% in sulfide, Cu 0.39% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+c8f18160-6937-4bb9-ad0c-dffa942ca41e,resource,in ground,"Copper, 1.42% in sulfide, Cu 0.81% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+fbf5d421-6486-49dd-a0bd-77012568cd97,resource,unspecified,"Copper, 1.42% in sulfide, Cu 0.81% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+b569dc97-52fe-4e39-9627-183b1002c287,resource,in ground,"Copper, 2.19% in sulfide, Cu 1.83% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+7df8baae-5dc8-4e19-9114-7abc9a792f80,resource,unspecified,"Copper, 2.19% in sulfide, Cu 1.83% and Mo 8.2E-3% in crude ore, in ground",kg,0,1.2357
+5afa470c-ab8c-4ec3-8a18-5c0bed973571,resource,in ground,"Copper, Cu 0.38%, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Pb 0.014%, in ore, in ground",kg,0,1.2357
+60f595cf-f180-419a-b86c-49de660d6295,resource,unspecified,"Copper, Cu 0.38%, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Pb 0.014%, in ore, in ground",kg,0,1.2357
+42920fa5-8d96-4685-be67-c760aa5f0336,resource,in ground,"Copper, Gold, Ore (1.07% Cu, 0.54 g/t Au)",kg,0,0
+2d4b0ccc-ba5a-40d8-9ee0-5aac9e2e4d7e,resource,in ground,"Copper, Gold, Silver, ore (0.51% Cu, 0.6 g/t Au, 1.5 g/t Ag)",kg,0,0
+c17f3b30-1647-4d50-8ed9-9beabed9eb99,resource,in ground,"Copper, Gold, Silver, ore (1.0% Cu, 0.4 g/t Au, 66 g/t Ag)",kg,0,0
+aa0ba006-9118-475d-93fa-3dfced212a76,resource,in ground,"Copper, Gold, Silver, ore (1.1% Cu, 0.01 g/t Au, 2.86 g/t Ag)",kg,0,0
+c8de1c43-d5ca-46fe-84ef-397e647e0b8a,resource,in ground,"Copper, Gold, Silver, ore (1.13% Cu, 1.05 g/t Au, 3.72 g/t Ag)",kg,0,0
+20f14ee4-8825-494e-a308-80764c9d82eb,resource,in ground,"Copper, Gold, Silver, ore (1.16% Cu, 0.002 g/t Au, 1.06 g/t Ag)",kg,0,0
+7f4aea55-ca00-4a6f-a637-3d59f6f7cbde,resource,in ground,"Copper, Gold, Silver, ore (1.7% Cu, 0.7 g/t Au, 3.5 g/t Ag)",kg,0,0
+0f0dde66-8b14-4d98-84cf-d01aef4e6de0,resource,in ground,"Copper, Silver, ore (3.3% Cu, 5.5 g/t Ag)",kg,0,0
+935c4dc8-399c-42de-bd82-5944520be23e,resource,in ground,"Copper-Molybdenum-Gold-Silver ore (1.13% CU, 0.02% Mo, 0.01 g/t Au, 2.8 Ag), in ground",kg,0,0
+718760af-87f6-4005-be1b-b5ccb8258b32,resource,in ground,crude oil; 42.3 MJ/kg,kWh,0,0
+73b7f080-b7ae-417c-b740-b4c9eabfb35a,resource,in ground,"Cu, Cu 3.2E+0%, Pt 2.5E-4%, Pd 7.3E-4%, Rh 2.0E-5%, Ni 2.3E+0% in ore, in ground",kg,0,1.2357
+93243ea3-5543-4f71-a018-89913fe85a09,resource,unspecified,"Cu, Cu 3.2E+0%, Pt 2.5E-4%, Pd 7.3E-4%, Rh 2.0E-5%, Ni 2.3E+0% in ore, in ground",kg,0,1.2357
+8508a83c-6a37-4159-93cc-21a2645390ab,resource,in ground,"Cu, Cu 5.2E-2%, Pt 4.8E-4%, Pd 2.0E-4%, Rh 2.4E-5%, Ni 3.7E-2% in ore, in ground",kg,0,1.2357
+8baa6285-bbbd-4a13-aba3-ec0ff5411fdb,resource,unspecified,"Cu, Cu 5.2E-2%, Pt 4.8E-4%, Pd 2.0E-4%, Rh 2.4E-5%, Ni 3.7E-2% in ore, in ground",kg,0,1.2357
+9877ce00-65f8-4c0c-9fcf-92aa53a2c9c0,resource,in ground,"Diatomite, in ground",kg,0,0
+c7aee986-b7d8-4ad9-ad45-1ac0d68e6b78,resource,in ground,"Dolomite, in ground",kg,0,0
+b76462ce-a161-4fb0-ae32-bc852dd71107,resource,in ground,dysprosium,kg,0,0
+d43946a1-f22e-4fb6-9ad1-c9cf360351ac,resource,unspecified,"Energy, from coal",kWh,0,0
+3d1daf2e-31ad-4088-a814-679f0d499e2f,resource,unspecified,"Energy, from sulfur",kWh,0,0
+8bc09c04-2190-4ee2-9ee2-ae988ccd4e0c,resource,in ground,"Energy, geothermal, converted",kWh,0,0
+57c71b25-4663-4fad-9167-7ce5be3e8268,resource,in air,"Energy, kinetic (in wind), converted",kWh,0,0
+c0dd7ccd-9e7a-42b3-b899-dfd18c2150ca,resource,in water,"Energy, potential (in hydropower reservoir), converted",kWh,0,0
+f85eb4eb-3342-4283-a8ad-4d2c94e5aae2,resource,in ground,"Energy, primary, from geothermal",kWh,0,0
+f92cd1d9-f342-43b4-8d38-a787c945c0d5,resource,in air,"Energy, primary, from solar energy",kWh,0,0
+5bc2536a-5cb4-4c7a-9495-b21acd99ff9d,resource,in water,"Energy, primary, from water power",kWh,0,0
+04202049-6556-11dd-ad8b-0800200c9a66,resource,in water,"Energy, primary, from waves",kWh,0,0
+c6e7e174-ff4e-4c4f-b727-f448389db0c8,resource,in air,"Energy, primary, from wind power",kWh,0,0
+a7ff17d4-d3fe-4a70-9f2e-392b34630772,resource,in air,"Energy, solar, converted",kWh,0,0
+1d9f4996-3197-476e-8cec-342a37c3fe26,resource,in ground,erbium,kg,0,0
+a093e2a2-efa8-49a2-bdcd-d700cf9466e5,resource,land,Erosion Resistance,kg/a,0,0
+df79428f-f7f6-4788-8971-8c959827ed82,resource,land,Erosion Resistance,kg,0,0
+3d58d08f-a4e6-4ccb-9a42-7a99bcf482b3,resource,in ground,europium,kg,0,0
+7c954971-4bce-41db-9e8b-2b2f049539d7,resource,in ground,"Europium, 0.06% in bastnasite, 0.006% in crude ore, in ground",kg,0,0
+26296ec9-ff93-41e6-bbbf-6175af04284d,resource,in ground,"Feldspar, in ground",kg,0,0
+d90d8435-aefe-4bf7-8d10-3329f9821e97,resource,in ground,Fluorine,kg,0,0
+e5fadc0b-1d79-4604-ac32-fd3321f27933,resource,in ground,"Fluorine, 4.5% in apatite, 1% in crude ore, in ground",kg,0,0
+355785ee-56e0-455b-aaa6-bee43c82b49c,resource,in ground,"Fluorine, 4.5% in apatite, 3% in crude ore, in ground",kg,0,0
+08a91e70-3ddc-11dd-97f7-0050c2490048,resource,in ground,Fluorspar,kg,0,0
+de2d220b-9fe8-4c39-bef7-a76c00d6ff33,resource,in ground,"Fluorspar, 92%, in ground",kg,0,0
+3d489606-b870-4852-8cb4-37d2c9399479,resource,in ground,Fresh fruit bunches,kg,0,0
+8dde6164-a2d2-4964-aae0-32363b942457,resource,in ground,gadolinium,kg,0,0
+b878ca93-d699-421e-a4b6-f694dc627062,resource,in ground,"Gadolinium, 0.15% in bastnasite, 0.015% in crude ore, in ground",kg,0,0
+9b69a732-a021-42eb-9f38-6cc9d9b83d72,resource,in ground,gallium,kg,0,0
+e2c5109f-9a68-4828-b824-eb2193864803,resource,in ground,"Gallium, 0.014% in bauxite, in ground",kg,0,0
+3ed5f377-344f-423a-b5ec-9a9a1162b944,resource,in ground,"Gas, mine, off-gas, process, coal mining",m3,0.1076,0
+57705642-2dff-46b4-a776-6ae778997801,resource,unspecified,"Gas, mine, off-gas, process, coal mining",m3,0.1076,0
+b8b73d09-394b-4e05-8e08-6e77387dc2e4,resource,unspecified,"Gas, mine, off-gas, process, coal mining/kg",kg,,0
+5bea06b9-bffe-484a-815c-ff5d934b911b,resource,unspecified,"Gas, natural, 30.3 MJ per kg, in ground",kg,0,0
+9854e081-33dc-489d-aca2-d164c87220da,resource,unspecified,"Gas, natural, 35 MJ per m3, in ground",m3,0,0
+35009b58-7a33-41aa-a15e-95b37717842b,resource,unspecified,"Gas, natural, 36.6 MJ per m3, in ground",m3,0,0
+7ae398b4-8532-11e0-9d78-0800200c9a66,resource,in ground,"Gas, natural, 46.8 MJ per kg, in ground",kg,0,0
+a816a3b7-0e97-43c4-992e-6a4028316699,resource,unspecified,"Gas, natural, 46.8 MJ per kg, in ground",kg,0,0
+ad9c08fd-ea91-415d-95a9-7eb5116dc97a,resource,in ground,"Gas, natural, at extraction site",kg,0,0
+ded94170-7b12-4442-bbd3-a0b1260a4dd9,resource,unspecified,"Gas, natural, feedstock, 35 MJ per m3, in ground",m3,0,0
+d508c71c-0761-421a-89e2-eb408051fe37,resource,unspecified,"Gas, natural, feedstock, 46.8 MJ per kg, in ground",kg,0,0
+7c337428-fb1b-45c7-bbb2-2ee4d29e17ba,resource,in ground,"Gas, natural, in ground",m3,0.10295,0
+fe0acd60-3ddc-11dd-a6fa-0050c2490048,resource,in ground,"Gas, natural, in ground",kWh,0,0
+77bb32cb-8876-4b2f-ae3a-7944fc1ef6c9,resource,unspecified,"Gas, natural, in ground",kWh,0,0
+f752690a-1d38-4496-8e05-9de194966bd5,resource,unspecified,"Gas, natural, in ground",m3,0,0
+72b01564-92f0-4d8e-ba33-80c71b19b113,resource,unspecified,"Gas, off-gas, oil production, in ground",m3,0,0
+f70b9100-1667-4410-95bf-3e0f2ed7a46d,resource,unspecified,"Gas, petroleum, 35 MJ per m3, in ground",m3,0,0
+fe0acd60-3ddc-11dd-a2bf-0050c2490048,resource,in ground,Gold,kg,0,0
+e59196e8-0e9c-4503-996d-8615f1beb8a3,resource,unspecified,Gold,kg,0,0
+ff741136-d6ee-444a-a15b-3b308e376db8,resource,in ground,"Gold, Au 1.1E-4%, Ag 4.2E-3%, in ore, in ground",kg,0,0
+987789bc-ec35-40a6-8c53-1db0d655fd60,resource,unspecified,"Gold, Au 1.1E-4%, Ag 4.2E-3%, in ore, in ground",kg,0,0
+7cd1d217-70a7-4452-abc4-3b1100763d6d,resource,in ground,"Gold, Au 1.3E-4%, Ag 4.6E-5%, in ore, in ground",kg,0,0
+ce585225-66bf-4972-be6c-d564c0a67df3,resource,unspecified,"Gold, Au 1.3E-4%, Ag 4.6E-5%, in ore, in ground",kg,0,0
+a8896ed6-4c9d-4b06-a356-49d8cdd9e9d7,resource,in ground,"Gold, Au 1.4E-4%, in ore, in ground",kg,0,0
+2d65a3f7-2a10-4a10-ac9e-a0cc7cd57979,resource,in ground,"Gold, Au 2.1E-4%, Ag 2.1E-4%, in ore, in ground",kg,0,0
+8a9907a3-c364-47f5-9271-5c27cd106b2f,resource,unspecified,"Gold, Au 2.1E-4%, Ag 2.1E-4%, in ore, in ground",kg,0,0
+95268685-7bea-4883-a412-119d7e88372c,resource,in ground,"Gold, Au 4.3E-4%, in ore, in ground",kg,0,0
+5fbf8f1a-b5d7-4d25-8512-532135aa86a1,resource,unspecified,"Gold, Au 4.3E-4%, in ore, in ground",kg,0,0
+8c888d2b-d608-4dac-bad5-1c2a17050838,resource,in ground,"Gold, Au 4.9E-5%, in ore, in ground",kg,0,0
+d02c4641-ada1-463d-98ff-fce0de839b2d,resource,unspecified,"Gold, Au 4.9E-5%, in ore, in ground",kg,0,0
+3eece329-cf79-4167-93c2-b8d7d7eb5058,resource,in ground,"Gold, Au 6.7E-4%, in ore, in ground",kg,0,0
+2619aa71-378c-415c-8ece-77ee28d7b9c5,resource,unspecified,"Gold, Au 6.7E-4%, in ore, in ground",kg,0,0
+d28f9d42-5df5-41c3-be59-fdfa7ff57112,resource,in ground,"Gold, Au 7.1E-4%, in ore, in ground",kg,0,0
+a5056cbf-a6f9-4095-b2dc-5055f4d28c9a,resource,unspecified,"Gold, Au 7.1E-4%, in ore, in ground",kg,0,0
+cf3d3dbc-0e4b-402d-92a1-8ea6b4869ed5,resource,in ground,"Gold, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Cu 0.38%, Pb 0.014%, in ore, in ground",kg,0,0
+e778edad-4430-4d90-952b-baed9a0bc77c,resource,unspecified,"Gold, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Cu 0.38%, Pb 0.014%, in ore, in ground",kg,0,0
+a4375a18-172c-4f82-90b7-bca972f75548,resource,in ground,"Granite, in ground",kg,0,0
+238f8ea9-98df-41dc-ab93-ea5b549a0b96,resource,in ground,"Gravel, in ground",kg,0,0
+d8e5cb63-6a69-4b8f-a840-a55406a5f7fa,resource,land,Groundwater Replenishment,(mm*m2)/a,0,0
+e3c8d565-1934-43c0-9967-99a353122d71,resource,land,Groundwater Replenishment,mm*m2,0,0
+11a2a7b1-ab2f-47b8-9e29-6f33d5207fa6,resource,in ground,"Gypsum, in ground",kg,0,0
+9525b6c8-9996-4da5-a161-982ce8014e61,resource,in ground,hard coal;  26.3 MJ/kg,kWh,0,0
+393cd19a-9b02-4b51-8127-dd348619d81e,resource,in air,Helium,kg,0,0
+4c276350-de3d-4bba-90a9-0d0a9ad097c0,resource,in ground,"Helium, 0.08% in natural gas, in ground",kg,0,0
+e80d4259-67b8-4d77-b218-cb4189d1974f,resource,in ground,holmium,kg,0,0
+b3e3005d-dae5-4097-a2a2-78750b2e3c89,resource,in ground,indium,kg,0,0
+e5cbe371-d33e-46ef-a832-a176f5e28520,resource,in ground,"Indium, 0.005% in sulfide, In 0.003%, Pb, Zn, Ag, Cd, in ground",kg,0,0
+c50538ea-8461-47f0-8f6d-f946dee801d7,resource,in ground,Iodine,kg,0,0
+7de77239-7074-4443-9dc9-4492c5e2ef35,resource,in water,"Iodine, 0.03% in water",kg,0,0
+afb5140a-1ed1-4c08-becb-6fc27781d831,resource,in ground,"Iridium, in ground",kg,0,0
+e35f1d5b-7e04-4315-92b1-16315de9a60a,resource,unspecified,"Iridium, in ground",kg,0,0
+08a91e70-3ddc-11dd-959a-0050c2490048,resource,in ground,Iron,kg,0,0.0017172
+3f891fb6-cf17-484d-a1a2-e63b45245648,resource,unspecified,Iron,kg,0,0.0017172
+7ae398b5-8532-11e0-9d78-0800200c9a66,resource,in ground,"Iron ore, in ground",kg,0,0.0017172
+f77aacc3-2c22-4bda-99ab-fe1110a1b891,resource,in ground,"Iron, 46% in ore, 25% in crude ore, in ground",kg,0,0.0017172
+fe0acd60-3ddc-11dd-aab8-0050c2490048,resource,in ground,Kaolin,kg,0,0
+ee540366-b970-46af-94d8-4c253ded5577,resource,in ground,"Kaolinite, 24% in crude ore, in ground",kg,0,0
+292c9360-0700-4e86-bd60-1fde41754973,resource,in ground,kieserite,kg,0,0
+38eff837-5465-47a9-a1c9-e1edd70922ef,resource,in ground,"Kieserite, 25% in crude ore, in ground",kg,0,0
+4602b501-1c9b-4af7-bb1c-864c70c3e855,resource,in air,"Krypton, in air",kg,0,0
+e2dd6951-2a4c-4651-bbc5-83c44b68a4d7,resource,land,Land use II-III,m2*a,0,0
+d6d2a0ff-902a-4ed4-85cb-ccd61be3d562,resource,land,Land use II-IV,m2*a,0,0
+ea00fa19-a543-48ec-bf06-98e2c14576a2,resource,land,Land use III-IV,m2*a,0,0
+15f98b12-7233-4438-9372-4ee1cfd5d693,resource,in ground,Lanthanum,kg,0,0
+d61418f3-c1a4-4b95-807c-06b7e1fa2915,resource,in ground,"Lanthanum, 7.2% in bastnasite, 0.72% in crude ore, in ground",kg,0,0
+a9169083-392c-4d92-ad8e-8155fcecc61a,resource,in ground,lava,kg,0,0
+fe0acd60-3ddc-11dd-ae5d-0050c2490048,resource,in ground,Lead,kg,0,0.24747
+10e3b9bc-648f-4321-be48-5df740b07e04,resource,unspecified,Lead,kg,0,0.24747
+eac29b52-5e5e-477c-813e-38a2495c5ae7,resource,in ground,"Lead, 5%, in sulfide, Pb 2.97% and Zn 5.34% in crude ore, in ground",kg,0,0.24747
+4f701354-38fd-40b0-8c90-4c1df36ec45a,resource,in ground,"Lead, 5.0% in sulfide, Pb 3.0%, Zn, Ag, Cd, In, in ground",kg,0,0.24747
+2d9f9c6b-8dca-4641-8ff9-53cb8beabd13,resource,in ground,"Lead, Pb 0.014%, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Cu 0.38%, in ore, in ground",kg,0,0.24747
+4382a809-3099-4528-bbbf-5f6b1b3e719d,resource,unspecified,"Lead, Pb 0.014%, Au 9.7E-4%, Ag 9.7E-4%, Zn 0.63%, Cu 0.38%, in ore, in ground",kg,0,0.24747
+978bbe5d-a301-4b1e-9760-a2dc1ea21192,resource,in ground,"Lead, zinc ore (4.6%, 0.6%)",kg,0,0
+badefaa0-fb1e-4cb0-bac1-480058554f3c,resource,in ground,"Lignite, 11 MJ per kg, in ground",kg,0,0
+537b8312-3f27-4d3c-859f-55d3f944f42d,resource,in ground,"Limestone, in ground",kg,0,0
+1aeadede-4403-45c1-aed8-b742a0d57a02,resource,in ground,lithium,kg,0,0
+a9ad523f-b721-4f07-ad9f-584053f3454d,resource,in ground,"Lithium, 0.15% in brine, in ground",kg,0,0
+f6379ef2-ed2d-4a0d-815f-47c7afe2f114,resource,in ground,lutetium,kg,0,0
+fe0acd60-3ddc-11dd-aabe-0050c2490048,resource,in ground,Magnesite,kg,0,0
+d2bf022d-9cbf-4f19-a8ec-7f507746942b,resource,in ground,"Magnesite, 60% in crude ore, in ground",kg,0,0
+fe0acd60-3ddc-11dd-aac3-0050c2490048,resource,in ground,Magnesium,kg,0,0
+fe0acd60-3ddc-11dd-acd8-0050c2490048,resource,in ground,Magnesium chloride,kg,0,0
+45b151c0-1bcf-4a51-85a2-b834588e1c87,resource,in ground,"Magnesium, 0.13% in water",kg,0,0
+752d138f-3723-42c1-bf5c-ca5316809c4c,resource,in water,"Magnesium, 0.13% in water",kg,0,0
+fe0acd60-3ddc-11dd-9e5c-0050c2490048,resource,in ground,Manganese,kg,0,0.010539
+2737dccb-d7b8-4002-a3f5-1ab6e1c6515e,resource,unspecified,Manganese,kg,0,0.010539
+4c4c1ef0-a32e-479f-992e-6523d854c316,resource,in ground,Manganese ore (R.O.M.),kg,0,0.010539
+9877acaf-a633-411c-a815-22263c193ac1,resource,in ground,"Manganese ore, in ground",kg,0,0.010539
+9f9f1f14-6eee-4067-b4a5-80e75fc7b295,resource,in ground,"Manganese, 35.7% in sedimentary deposit, 14.2% in crude ore, in ground",kg,0,0.010539
+819f7e8f-c71b-4c49-8652-230b4cda1405,resource,land,Mechanical Filtration,cm*m3,0,0
+aa3ea97b-523e-4594-8874-44f277573096,resource,land,Mechanical Filtration,cm*m2/d,0,0
+fe0acd60-3ddc-11dd-a8cd-0050c2490048,resource,in ground,Mercury,kg,0,0
+8a1f720b-365d-4cac-b8a3-409aa13477e6,resource,in ground,"Metal ore, precious, unspecified, ROM",kg,0,0
+c3b83c04-c25a-4d40-bbd2-ee4ad47144f7,resource,in ground,metallurgical coal,kg,0,0
+5666353e-2db2-41d3-8414-404709151422,resource,in ground,"Metamorphous rock, graphite containing, in ground",kg,0,0
+8b9c9b8e-58a0-4e77-a0de-82d17cb44e59,resource,unspecified,Methane,kg,0,0
+924428df-2195-45a3-b877-2cb76c525fd4,resource,in ground,"Molybdenite, 0.24%, in ground",kg,0,1.3805
+fe0acd60-3ddc-11dd-a2be-0050c2490048,resource,in ground,Molybdenum,kg,0,1.3805
+58f64002-e4a0-48d8-865a-893f02cec62f,resource,unspecified,Molybdenum,kg,0,1.3805
+06874cbb-2daf-4981-a55e-2c38be5b7277,resource,in ground,"Molybdenum, 0.010% in sulfide, Mo 8.2E-3% and Cu 1.83% in crude ore, in ground",kg,0,1.3805
+1812b512-f2ea-43b7-a68d-8ec8eb1f0c44,resource,unspecified,"Molybdenum, 0.010% in sulfide, Mo 8.2E-3% and Cu 1.83% in crude ore, in ground",kg,0,1.3805
+5514ccd2-469f-4074-9905-529154e7f742,resource,in ground,"Molybdenum, 0.014% in sulfide, Mo 8.2E-3% and Cu 0.81% in crude ore, in ground",kg,0,1.3805
+5323c0ed-4b57-46b5-8c13-1491b18e1080,resource,unspecified,"Molybdenum, 0.014% in sulfide, Mo 8.2E-3% and Cu 0.81% in crude ore, in ground",kg,0,1.3805
+ac8571b8-b00b-479d-93cf-b9374feaee05,resource,in ground,"Molybdenum, 0.016% in sulfide, Mo 8.2E-3% and Cu 0.27% in crude ore, in ground",kg,0,1.3805
+7cf24ec7-f96e-43d4-8da1-23afa56f4168,resource,unspecified,"Molybdenum, 0.016% in sulfide, Mo 8.2E-3% and Cu 0.27% in crude ore, in ground",kg,0,1.3805
+a76cf135-2be1-4e53-9423-9211acd100f1,resource,in ground,"Molybdenum, 0.022% in sulfide, Mo 8.2E-3% and Cu 0.22% in crude ore, in ground",kg,0,1.3805
+38cd88d2-3834-4763-9ed3-31adce2bdfbb,resource,unspecified,"Molybdenum, 0.022% in sulfide, Mo 8.2E-3% and Cu 0.22% in crude ore, in ground",kg,0,1.3805
+30fed59d-d722-482f-be4f-f3d93bdd2527,resource,in ground,"Molybdenum, 0.022% in sulfide, Mo 8.2E-3% and Cu 0.36% in crude ore, in ground",kg,0,1.3805
+296a7d5b-e4b0-468d-9032-73e97cf86a7e,resource,unspecified,"Molybdenum, 0.022% in sulfide, Mo 8.2E-3% and Cu 0.36% in crude ore, in ground",kg,0,1.3805
+719def62-0941-4264-bc54-97093d847d7a,resource,in ground,"Molybdenum, 0.025% in sulfide, Mo 8.2E-3% and Cu 0.39% in crude ore, in ground",kg,0,1.3805
+363646d2-999e-4a69-a8b4-7ccfa4ec3790,resource,unspecified,"Molybdenum, 0.025% in sulfide, Mo 8.2E-3% and Cu 0.39% in crude ore, in ground",kg,0,1.3805
+eda28c96-8899-4d84-bf18-35c3f1de518e,resource,in ground,"Molybdenum, 0.11% in sulfide, Mo 4.1E-2% and Cu 0.36% in crude ore, in ground",kg,0,1.3805
+19454e14-b4ab-457e-99bb-0eaa214fd6f1,resource,unspecified,"Molybdenum, 0.11% in sulfide, Mo 4.1E-2% and Cu 0.36% in crude ore, in ground",kg,0,1.3805
+c2035468-120a-459e-8415-df51576e9b4a,resource,in ground,natural gas;  44.1 MJ/kg,kWh,0,0
+c970e81e-1c4e-4f21-814c-0c25444f41d2,resource,in ground,"Neodymium, 4% in bastnasite, 0.4% in crude ore, in ground",kg,0,0
+da721fc3-20be-49ac-bcbd-f0dd602bb98b,resource,in ground,"Neodymium, in ground",kg,0,0
+08a91e70-3ddc-11dd-93f2-0050c2490048,resource,in ground,Nepheline,kg,0,0
+0d7f8b87-12f4-4e83-a5a2-854e2f2b47de,resource,in ground,"Ni, Ni 2.3E+0%, Pt 2.5E-4%, Pd 7.3E-4%, Rh 2.0E-5%, Cu 3.2E+0% in ore, in ground",kg,0,0.79966
+febbfa6e-44d4-42a0-abcd-aec8a428f75e,resource,in ground,"Ni, Ni 3.7E-2%, Pt 4.8E-4%, Pd 2.0E-4%, Rh 2.4E-5%, Cu 5.2E-2% in ore, in ground",kg,0,0.79966
+08a91e70-3ddc-11dd-96d1-0050c2490048,resource,in ground,Nickel,kg,0,0.79966
+0995f4ad-2655-43a3-b98e-65d08af753a5,resource,unspecified,Nickel,kg,0,0.79966
+ef750016-62c6-46ed-83c0-1a07b1f20008,resource,in ground,"Nickel ore, 1.6%, in ground",kg,0,0.79966
+e60f5975-8d1a-4ea9-a644-291ecb00c75c,resource,in ground,"Nickel ore, in ground",kg,0,0.79966
+86c6e6cd-c2f5-4977-bad6-ce9cd48cf721,resource,in ground,"Nickel, 1.13% in sulfide, Ni 0.76% and Cu 0.76% in crude ore, in ground",kg,0,0.79966
+c9b0bd9b-662c-481c-8848-cf93f9ff1f3d,resource,unspecified,"Nickel, 1.13% in sulfide, Ni 0.76% and Cu 0.76% in crude ore, in ground",kg,0,0.79966
+e729d80a-bb6d-400a-a8a9-55b6fa0e4aaf,resource,in ground,"Nickel, 1.13% in sulfides, 0.76% in crude ore, in ground",kg,0,0.79966
+79dcb82b-db11-4410-a858-e47706c97cca,resource,unspecified,"Nickel, 1.13% in sulfides, 0.76% in crude ore, in ground",kg,0,0.79966
+e47e4e5f-6528-413d-a8fb-1cd1875fbd73,resource,in ground,"Nickel, 1.98% in silicates, 1.04% in crude ore, in ground",kg,0,0.79966
+d771d695-92b5-4378-87c8-5b9acbd037b9,resource,unspecified,"Nickel, 1.98% in silicates, 1.04% in crude ore, in ground",kg,0,0.79966
+1b8d1b12-8538-11e0-9d78-0800200c9a66,resource,in air,Nitrogen,kg,0,0
+1b8d1b13-8538-11e0-9d78-0800200c9a66,resource,in ground,Nitrogen,kg,0,0
+08a91e70-3ddc-11dd-96e4-0050c2490048,resource,in air,"Nitrogen, organic bound",kg,0,0
+110b33da-6c5e-4f64-9837-cf6e6341619a,resource,in ground,Nuclear energy,kWh,0,0
+c5aafa60-495c-461c-a1d4-b262a34c45b9,resource,land,"Occupation, arable",m2*a,0,0
+b4b55e63-6541-4af6-818b-09a67520f45a,resource,unspecified,"Occupation, arable",m2*a,0,0
+7ae398bc-8532-11e0-9d78-0800200c9a66,resource,land,"Occupation, arable, conservation tillage",m2,0,0
+b8300190-a242-11e0-8264-0800200c9a66,resource,land,"Occupation, arable, conservation tillage",m2*a,0,0
+7ae398bd-8532-11e0-9d78-0800200c9a66,resource,land,"Occupation, arable, conventional tillage",m2,0,0
+b8300191-a242-11e0-8264-0800200c9a66,resource,land,"Occupation, arable, conventional tillage",m2*a,0,0
+ea08f8e5-2375-4d1e-bda0-894d04c99031,resource,unspecified,"Occupation, arable, integrated",m2*a,0,0
+a6889a22-e99e-42ea-85cd-4a68d7975dcd,resource,land,"Occupation, arable, non-irrigated",m2*a,0,0
+7ea7c8d2-d20a-4c68-ab8c-b435447833eb,resource,unspecified,"Occupation, arable, non-irrigated",m2*a,0,0
+1b0a8570-eab4-46c2-9b67-c9b918e75676,resource,land,"Occupation, arable, non-irrigated, diverse-intensive",m2*a,0,0
+1f99f0be-f142-4a18-a7cd-209bf22218c8,resource,unspecified,"Occupation, arable, non-irrigated, diverse-intensive",m2*a,0,0
+5d615a38-6d0a-4f3a-8973-69b333b6e814,resource,land,"Occupation, arable, non-irrigated, fallow",m2*a,0,0
+4f243941-fdd0-42e9-90d4-3a5b0a352c5b,resource,unspecified,"Occupation, arable, non-irrigated, fallow",m2*a,0,0
+e063ee9c-9850-42b5-b01e-4cc9b5ad7152,resource,land,"Occupation, arable, non-irrigated, monotone-intensive",m2*a,0,0
+2ffde7a9-81d0-4113-a519-3196e5886679,resource,unspecified,"Occupation, arable, non-irrigated, monotone-intensive",m2*a,0,0
+35f58560-2ce4-4213-9984-616a292e63ea,resource,unspecified,"Occupation, arable, organic",m2*a,0,0
+b8300192-a242-11e0-8264-0800200c9a66,resource,land,"Occupation, arable, reduced tillage",m2*a,0,0
+7ae398be-8532-11e0-9d78-0800200c9a66,resource,land,"Occupation, arable, reduced tillage",m2,0,0
+4b6b9b76-3199-4bd0-b11d-f8f2efbeac4e,resource,land,"Occupation, construction site",m2*a,0,0
+26586deb-0d0d-42b7-ae01-e6e517a743cb,resource,unspecified,"Occupation, construction site",m2*a,0,0
+1eaa9ea4-40b8-414a-b198-5626400372e1,resource,land,"Occupation, dump site",m2*a,0,0
+3259f9e3-8108-444b-9521-de12e53f6e35,resource,unspecified,"Occupation, dump site",m2*a,0,0
+70c4c6d8-ed81-4763-ae6d-39e54ef0b1fa,resource,land,"Occupation, dump site, benthos",m2*a,0,0
+c033dd2f-87a4-435d-a7cb-477b15310066,resource,unspecified,"Occupation, dump site, benthos",m2*a,0,0
+b91d0527-9a01-4a86-b420-c62b70629ba4,resource,land,"Occupation, forest",m2*a,0,0
+012ee35c-c4e1-4759-9f62-e1a7a8504f8c,resource,unspecified,"Occupation, forest",m2*a,0,0
+5c44eadf-8f68-496b-b9ef-f94be1372c58,resource,land,"Occupation, forest, extensive",m2*a,0,0
+135816ab-f119-4a64-b608-a61cb788af7d,resource,unspecified,"Occupation, forest, extensive",m2*a,0,0
+b1720e30-2692-4a1f-8ced-b58574d2e7c6,resource,land,"Occupation, forest, intensive",m2*a,0,0
+92f8f25e-135a-48df-b90c-c6c4547fe94d,resource,unspecified,"Occupation, forest, intensive",m2*a,0,0
+250de680-25a7-4a3b-93c9-a9ed44bb4e0c,resource,land,"Occupation, forest, intensive, clear-cutting",m2*a,0,0
+2843362e-6942-48fb-acdc-cea07d6e08cc,resource,unspecified,"Occupation, forest, intensive, clear-cutting",m2*a,0,0
+aca1714f-0040-4a65-a73a-0e38aa9f50f4,resource,land,"Occupation, forest, intensive, normal",m2*a,0,0
+4498615d-0ed6-4ca4-8a87-267f31f624b0,resource,unspecified,"Occupation, forest, intensive, normal",m2*a,0,0
+bafff3e8-f51e-42d6-8924-dcab1098c8ef,resource,land,"Occupation, forest, intensive, short-cycle",m2*a,0,0
+a029c026-6970-40a0-b597-5ebd8dfbaa97,resource,unspecified,"Occupation, forest, intensive, short-cycle",m2*a,0,0
+69c7d771-04fc-499e-84f8-6c7b923b8ced,resource,land,"Occupation, heterogeneous, agricultural",m2*a,0,0
+7d143ee5-e848-47d0-91e8-f10f7c86963d,resource,unspecified,"Occupation, heterogeneous, agricultural",m2*a,0,0
+97c598f0-4d1d-4f9f-906e-097347168153,resource,land,"Occupation, industrial area",m2*a,0,0
+faa01bcb-884e-4c79-9ea2-16da6596c6a6,resource,unspecified,"Occupation, industrial area",m2*a,0,0
+9db06277-b6d9-4c48-8cfb-de342e928a50,resource,land,"Occupation, industrial area, benthos",m2*a,0,0
+b0828a29-0261-4a12-a5d3-9e72c7e89619,resource,unspecified,"Occupation, industrial area, benthos",m2*a,0,0
+fe9c3a98-a6d2-452d-a9a4-a13e64f1b95b,resource,land,"Occupation, industrial area, built up",m2*a,0,0
+cf39ec61-e779-4614-97b7-ec622556040d,resource,unspecified,"Occupation, industrial area, built up",m2*a,0,0
+44ea6f89-8780-45b4-a80a-cfc3abcfef5f,resource,land,"Occupation, industrial area, vegetation",m2*a,0,0
+dde38771-435a-4f90-ad87-fd944f90b437,resource,unspecified,"Occupation, industrial area, vegetation",m2*a,0,0
+379ba5c9-5c3a-43d0-8e2d-605ad9c39e46,resource,land,"Occupation, mineral extraction site",m2*a,0,0
+7d6baa46-6ac9-4f04-9bcb-abc382574260,resource,unspecified,"Occupation, mineral extraction site",m2*a,0,0
+59ded913-17fe-4b3e-80cb-79b97cdbef9a,resource,land,"Occupation, pasture and meadow",m2*a,0,0
+6cd33048-b06a-4b9b-bf8d-b4b6b47754f9,resource,unspecified,"Occupation, pasture and meadow",m2*a,0,0
+19f84b2e-e6ff-4351-ba3a-8b650fc20d14,resource,land,"Occupation, pasture and meadow, extensive",m2*a,0,0
+ed6f73f6-6ea8-43d3-9212-b4551140484e,resource,unspecified,"Occupation, pasture and meadow, extensive",m2*a,0,0
+98b723d4-3362-4b38-8b1e-1bedacfd5e27,resource,land,"Occupation, pasture and meadow, intensive",m2*a,0,0
+e1e245de-5e76-4d8c-a083-95262b06dcf2,resource,unspecified,"Occupation, pasture and meadow, intensive",m2*a,0,0
+86d3fdb1-3b9b-4b01-a6eb-6bdab06676d7,resource,unspecified,"Occupation, pasture and meadow, organic",m2*a,0,0
+e9007a6f-7244-44d4-a561-91ae1b6c6cfc,resource,land,"Occupation, permanent crop",m2*a,0,0
+1a01977a-d170-4ac1-86df-aae792cbeb8f,resource,unspecified,"Occupation, permanent crop",m2*a,0,0
+1896b498-8d13-4f58-8c17-21fe57740158,resource,land,"Occupation, permanent crop, fruit",m2*a,0,0
+67884dbf-8895-42ca-9a2a-37aef1189d3b,resource,unspecified,"Occupation, permanent crop, fruit",m2*a,0,0
+7e7d6ebb-8c9c-4ecb-b64b-23a8c2c908c4,resource,land,"Occupation, permanent crop, fruit, extensive",m2*a,0,0
+5db2250f-278c-4b47-8c45-561ae9ff448d,resource,unspecified,"Occupation, permanent crop, fruit, extensive",m2*a,0,0
+3afbc2d8-1b51-4d43-87a7-e68291c1e999,resource,land,"Occupation, permanent crop, fruit, intensive",m2*a,0,0
+2997b0b4-f6ec-4df0-9481-4bdab4e86507,resource,unspecified,"Occupation, permanent crop, fruit, intensive",m2*a,0,0
+18636f13-f552-4136-a353-3b5a8e5f87d1,resource,land,"Occupation, permanent crop, vine",m2*a,0,0
+f2311a45-8789-472c-8aba-416e8621bb4c,resource,unspecified,"Occupation, permanent crop, vine",m2*a,0,0
+f318deb8-ac36-47c0-bb00-e3022b583c7e,resource,land,"Occupation, permanent crop, vine, extensive",m2*a,0,0
+3295a31d-855c-4ed1-ace4-e81d0a7f04c6,resource,unspecified,"Occupation, permanent crop, vine, extensive",m2*a,0,0
+c9461a73-d00a-4fc7-a890-a9eda6af3185,resource,land,"Occupation, permanent crop, vine, intensive",m2*a,0,0
+16835899-c22f-4e78-8076-0d4d340c6f60,resource,unspecified,"Occupation, permanent crop, vine, intensive",m2*a,0,0
+7af0b1a6-2e8f-407a-8ac7-b02a2023155b,resource,land,"Occupation, sea and ocean",m2*a,0,0
+7f454ce5-4497-43d9-84d0-a79b65813b46,resource,unspecified,"Occupation, sea and ocean",m2*a,0,0
+c199261c-8234-43c5-b906-5b67707e4395,resource,land,"Occupation, shrub land, sclerophyllous",m2*a,0,0
+ab295ced-caf0-4281-96a2-7ebc2203c508,resource,unspecified,"Occupation, shrub land, sclerophyllous",m2*a,0,0
+74212326-ca29-46f8-a600-4e45b0ad688e,resource,unspecified,"Occupation, traffic area",m2*a,0,0
+4ce71e21-8f14-48da-b9e5-4743e5f3c0ab,resource,land,"Occupation, traffic area, rail embankment",m2*a,0,0
+0a03fe20-343b-42d4-87b5-1300cfd47a7a,resource,unspecified,"Occupation, traffic area, rail embankment",m2*a,0,0
+062a6faf-b1a5-4a6a-aa02-47ae3ec566a8,resource,land,"Occupation, traffic area, rail network",m2*a,0,0
+2aa913a6-41a4-47cd-83bd-58cc5e1b11a5,resource,unspecified,"Occupation, traffic area, rail network",m2*a,0,0
+14811cde-0ef0-4327-ad94-4ee232f7a462,resource,land,"Occupation, traffic area, rail/road embankment",m2*a,0,0
+956c5f83-65c8-4607-9749-147cfb9c8f70,resource,land,"Occupation, traffic area, road embankment",m2*a,0,0
+14b92328-e08d-4fac-b16a-da5dcd0e5627,resource,unspecified,"Occupation, traffic area, road embankment",m2*a,0,0
+26efe47c-92a5-4dea-b4d0-eac13e418a58,resource,land,"Occupation, traffic area, road network",m2*a,0,0
+72745257-3534-4ca3-adfa-a2eb63f1e7d9,resource,unspecified,"Occupation, traffic area, road network",m2*a,0,0
+2925111b-3464-4e34-9d02-b73c1c033e91,resource,land,"Occupation, tropical rain forest",m2*a,0,0
+a4c4b2e8-7611-4690-b00f-80789d4eb9fe,resource,unspecified,"Occupation, tropical rain forest",m2*a,0,0
+c7cb5880-4219-4051-9357-10fdd08c6f2b,resource,land,"Occupation, unknown",m2*a,0,0
+50b14562-ddeb-49d7-899c-dcbf9dfed004,resource,unspecified,"Occupation, unknown",m2*a,0,0
+3b4db191-9634-4a01-a873-f3cb234785e4,resource,land,"Occupation, urban, continuously built",m2*a,0,0
+45091000-d7e1-459f-bac5-38b51efb4d63,resource,unspecified,"Occupation, urban, continuously built",m2*a,0,0
+56ec994a-eb96-42e8-93eb-4970e30e6362,resource,land,"Occupation, urban, discontinuously built",m2*a,0,0
+080bf4c6-fab3-4e21-88c7-20b435aa42e8,resource,unspecified,"Occupation, urban, discontinuously built",m2*a,0,0
+5ce41517-25bb-4da6-b839-5fd0f00baff1,resource,unspecified,"Occupation, urban, green areas",m2*a,0,0
+69dfa439-8e4e-4cae-bb0c-85a8aa8b9a73,resource,land,"Occupation, water bodies, artificial",m2*a,0,0
+b9a35003-86ed-45d8-b616-ef6859087b40,resource,unspecified,"Occupation, water bodies, artificial",m2*a,0,0
+c14ea750-4a9f-41fa-bcc1-4a1d84466f43,resource,land,"Occupation, water courses, artificial",m2*a,0,0
+a47cd00c-476b-4f73-a0a0-46dc11638699,resource,unspecified,"Occupation, water courses, artificial",m2*a,0,0
+e7961ae5-1a17-40d9-8a79-9e2c1bd09398,resource,in ground,Oil sand (10% bitumen) (in MJ),kWh,0,0
+b7d01aa2-7469-480a-aad7-cebc7d1d6292,resource,in ground,Oil sand (100% bitumen) (in MJ),kWh,0,0
+6ea27a5b-fb6d-489d-b874-90cca86a30c6,resource,unspecified,"Oil, crude, 38400 MJ per m3, in ground",m3,0,0
+01918e03-46b5-4d15-9e48-01e3332859cc,resource,unspecified,"Oil, crude, 41 MJ per kg, in ground",kg,0,0
+7ae398bf-8532-11e0-9d78-0800200c9a66,resource,in ground,"Oil, crude, 42 MJ per kg, in ground",kg,0,0
+a65e5f73-a72a-4bc8-a4e3-58bfaf33baaa,resource,unspecified,"Oil, crude, 42 MJ per kg, in ground",kg,0,0
+5d1c7444-561f-41a5-90bc-db10b6d47e19,resource,unspecified,"Oil, crude, 42.6 MJ per kg, in ground",kg,0,0
+7ff5e639-4e7e-4708-8947-c4d1c499d331,resource,unspecified,"Oil, crude, 42.7 MJ per kg, in ground",kg,0,0
+7fe7f6f1-c9cb-4fe3-9322-a1194d5a7ce3,resource,unspecified,"Oil, crude, feedstock, 41 MJ per kg, in ground",kg,0,0
+897eac83-f116-4c80-9264-38916e1877e3,resource,unspecified,"Oil, crude, feedstock, 42 MJ per kg, in ground",kg,0,0
+88d06db9-59a1-4719-9174-afeb1fa4026a,resource,in ground,"Oil, crude, in ground",kg,0.12087,0
+fe0acd60-3ddc-11dd-a6f8-0050c2490048,resource,in ground,"Oil, crude, in ground",kWh,0,0
+55031fb3-9c72-4bcc-b320-e190790bbc74,resource,unspecified,"Oil, crude, in ground",kg,0.12087,0
+627af04c-e8d1-4e53-8b0e-df254f6a22f3,resource,unspecified,"Oil, crude, in ground",kWh,0,0
+d7cadc9a-f42c-4711-a8e2-0b626c0a4c7a,resource,in ground,"Olivine, in ground",kg,0,0
+740af364-6a27-4b34-940a-6c0196ca69cd,resource,in ground,Open Pit extracted ore,kg,0,0
+93f9f6e7-b940-4f27-af8b-4e4d58fc8513,resource,in ground,Open Pit Mine Ore,kg,0,0
+9262f3d6-44e7-4044-80db-2dc38fc8964d,resource,in ground,Ore mined,kg,0,0
+d4f74ad1-5f43-4b1c-8aa6-d7b8b2c40707,resource,in ground,"Osmium, in ground",kg,0,0
+23c3095f-162c-4a4a-9530-cceddcbc7ed1,resource,unspecified,"Osmium, in ground",kg,0,0
+49cf671a-9ab8-40fe-bbc4-c004b0bfd319,resource,in ground,Other energetic inputs (IISI),kWh,0,0
+c132f668-6330-45fe-b230-d8de62e64ff1,resource,in air,"Oxygen, in air",kg,0,0
+e2fb2bc2-6555-11dd-ad8b-0800200c9a66,resource,in ground,Palladium,kg,0,0
+88dedb56-1a42-47a3-bdf6-c4c13b7368ae,resource,unspecified,Palladium,kg,0,0
+4b8ac2cb-3fa6-4047-a9ab-183d9e63ccac,resource,in ground,"Pd, Pd 2.0E-4%, Pt 4.8E-4%, Rh 2.4E-5%, Ni 3.7E-2%, Cu 5.2E-2% in ore, in ground",kg,0,0
+189f6ef6-b23b-40dd-9992-ed86c85c3c55,resource,unspecified,"Pd, Pd 2.0E-4%, Pt 4.8E-4%, Rh 2.4E-5%, Ni 3.7E-2%, Cu 5.2E-2% in ore, in ground",kg,0,0
+535bbc83-033b-42fe-9a68-8dc9eb420385,resource,in ground,"Pd, Pd 7.3E-4%, Pt 2.5E-4%, Rh 2.0E-5%, Ni 2.3E+0%, Cu 3.2E+0% in ore, in ground",kg,0,0
+6747f912-fe52-40e3-86d6-8a0fe4257455,resource,unspecified,"Pd, Pd 7.3E-4%, Pt 2.5E-4%, Rh 2.0E-5%, Ni 2.3E+0%, Cu 3.2E+0% in ore, in ground",kg,0,0
+e2fba107-6555-11dd-ad8b-0800200c9a66,resource,in ground,"Peat, in ground",kWh,0,0
+384e875d-2237-4d74-8f62-6b04173f656b,resource,in ground,"Peat, in ground",kg,0,0
+63114809-7f24-457e-9424-613b56678c03,resource,unspecified,"Peat, in ground",kWh,0,0
+1939f8a8-d868-4eb3-9b2c-5feeda942af3,resource,in ground,peat;  8.4 MJ/kg,kWh,0,0
+09a68c14-01f6-4dee-ba29-8b7f400b72b5,resource,in ground,"Perlite, in ground",kg,0,0
+21d03f9b-9009-4a71-8f2b-d97d6db31fcc,resource,in ground,Phonolite,kg,0,0
+fe3009be-3a28-4e9a-b521-b57eae0f1443,resource,in ground,"Phosphate ore, in ground",kg,0,0
+041f5cea-6556-11dd-ad8b-0800200c9a66,resource,in ground,Phosphorus,kg,0,0
+5dc1b17b-b3f7-4e48-9f7f-a995a975a11a,resource,in ground,Phosphorus ore (29% P2O5),kg,0,0
+a64e65fe-3c33-44f1-bd2d-ab7fac07653f,resource,in ground,"Phosphorus, 18% in apatite, 12% in crude ore, in ground",kg,0,0
+9a7380d1-6e23-48ad-b35a-14bd1ecb3133,resource,in ground,"Phosphorus, 18% in apatite, 4% in crude ore, in ground",kg,0,0
+cf600286-4367-4287-b91e-ba5b494c1b02,resource,land,Physicochemical Filtration,(cmol*m2*a)/kg,0,0
+c6dbfddd-b11a-4061-84a6-01b087136eb6,resource,land,Physicochemical Filtration,(cmol*m2)/kg,0,0
+5dab9f0b-1eab-4809-942f-98141d0c7d28,resource,in ground,Pit gas,kg,0,0
+cc084f21-5d55-45b9-bba7-80ae6ba94132,resource,in ground,Pit gas,m3,0,0
+782718b9-e84e-47b7-be6a-17eaab19c432,resource,in ground,Pit Methane (in MJ),kWh,0,0
+041fab30-6556-11dd-ad8b-0800200c9a66,resource,in ground,Platinum,kg,0,0
+929b7d7e-39d5-4320-8282-856d9a9f7f3f,resource,unspecified,Platinum,kg,0,0
+38a037a3-47a7-4df7-a986-84e60f50f62e,resource,in ground,Potassium,kg,0,0
+041ff934-6556-11dd-ad8b-0800200c9a66,resource,in ground,Potassium chloride,kg,0,0
+4be6ccf7-d242-4281-afb0-25fa00818a79,resource,in ground,praseodymium,kg,0,0
+909bc093-18b2-4a7e-8131-16f68eebc193,resource,in ground,"Praseodymium, 0.42% in bastnasite, 0.042% in crude ore, in ground",kg,0,0
+3250f566-58bc-46d3-ab88-1d2e23ca3e1b,resource,in ground,"Pt, Pt 2.5E-4%, Pd 7.3E-4%, Rh 2.0E-5%, Ni 2.3E+0%, Cu 3.2E+0% in ore, in ground",kg,0,0
+0c40d1ad-c0fe-46bd-87c6-dcc8d4c15eef,resource,unspecified,"Pt, Pt 2.5E-4%, Pd 7.3E-4%, Rh 2.0E-5%, Ni 2.3E+0%, Cu 3.2E+0% in ore, in ground",kg,0,0
+636a8446-9899-43a6-b4bf-213f25d69c88,resource,in ground,"Pt, Pt 4.8E-4%, Pd 2.0E-4%, Rh 2.4E-5%, Ni 3.7E-2%, Cu 5.2E-2% in ore, in ground",kg,0,0
+32763f1f-d866-41ee-83f3-7a84fff27dc4,resource,unspecified,"Pt, Pt 4.8E-4%, Pd 2.0E-4%, Rh 2.4E-5%, Ni 3.7E-2%, Cu 5.2E-2% in ore, in ground",kg,0,0
+4402f445-984c-4728-be22-6f9aea1146b9,resource,in ground,"Pumice, in ground",kg,0,0
+c73e75dc-c02d-4192-ab43-faf29c119fae,resource,in ground,"Pyrite, in ground",kg,0,0
+aaceb467-2e6a-464e-9a0f-2545e31850ba,resource,in ground,"Pyrolusite, in ground",kg,0,0.010539
+cf734e71-8a78-40ec-a540-8b220dc0fb71,resource,in ground,"Raw material, unspecified",kg,0,0
+7005a356-23d8-4d38-9dbc-fa75401b400e,resource,in ground,"Rh, Rh 2.0E-5%, Pt 2.5E-4%, Pd 7.3E-4%, Ni 2.3E+0%, Cu 3.2E+0% in ore, in ground",kg,0,0
+7cfca2ad-0960-42da-ac87-b74f49902cac,resource,unspecified,"Rh, Rh 2.0E-5%, Pt 2.5E-4%, Pd 7.3E-4%, Ni 2.3E+0%, Cu 3.2E+0% in ore, in ground",kg,0,0
+f7360584-688a-4b6f-bc4a-db00a1e7b022,resource,in ground,"Rh, Rh 2.4E-5%, Pt 4.8E-4%, Pd 2.0E-4%, Ni 3.7E-2%, Cu 5.2E-2% in ore, in ground",kg,0,0
+11042f8f-c43a-43e8-b00b-68c91f2f635d,resource,unspecified,"Rh, Rh 2.4E-5%, Pt 4.8E-4%, Pd 2.0E-4%, Ni 3.7E-2%, Cu 5.2E-2% in ore, in ground",kg,0,0
+a3930b4d-74da-4489-9a50-d175c25d4fe8,resource,in ground,"Rhenium, in crude ore, in ground",kg,0,0
+1729c889-6556-11dd-ad8b-0800200c9a66,resource,in ground,Rhodium,kg,0,0
+0f8f6c8b-518f-4fb9-92cb-c2668d661428,resource,unspecified,Rhodium,kg,0,0
+73c1ab41-1f30-46e3-aaec-32143f9fb097,resource,in ground,"Rock, inert, in ground",kg,0,0
+58693e74-99e3-4562-b7ba-62b2df9616a9,resource,in ground,"Ruthenium, in ground",kg,0,0
+dc5acd57-9788-4ec2-8a54-dfa626ef351d,resource,unspecified,"Ruthenium, in ground",kg,0,0
+f7d19093-ce81-36a2-ac82-586aebc1f374,resource,in ground,"Rutile, in ground",kg,0,0
+6c112341-7358-4d7e-87cd-02350c6ea937,resource,in ground,"S, bonded, naturally occurring, in ground",kg,0,0
+2c391077-ef22-4bc6-802a-5e9b7eeeb114,resource,in ground,samarium,kg,0,0
+f46130cc-dbd4-4a3b-a537-5efbcd89063f,resource,in ground,"Samarium, 0.3% in bastnasite, 0.03% in crude ore, in ground",kg,0,0
+7ae3bfc0-8532-11e0-9d78-0800200c9a66,resource,in ground,"Sand, quartz, in ground",kg,0,0
+423ef039-6057-4f63-94bd-e9410d024bd0,resource,in ground,"Sand, unspecified, in ground",kg,0,0
+9e9b6792-40e6-4d62-a3e0-ebebc0c65166,resource,in ground,"Shale, in ground",kg,0,0
+172a8bf6-6556-11dd-ad8b-0800200c9a66,resource,in ground,Silicon,kg,0,0
+f577ace7-9fe3-456b-97f4-dd704f558724,resource,in ground,Silt,kg,0,0
+f5523a4a-4f4a-4d74-afa8-855943253541,resource,unspecified,Silver,kg,0,0
+c15f6c4d-bf7a-4a7c-91c6-53aad6a630a8,resource,in ground,"Silver, 0.007% in sulfide, Ag 0.004%, Pb, Zn, Cd, In, in ground",kg,0,0
+2258583e-4857-49f1-a7a8-3a653a023fbf,resource,unspecified,"Silver, 0.007% in sulfide, Ag 0.004%, Pb, Zn, Cd, In, in ground",kg,0,0
+bc153c00-6c93-412f-aadc-750f2fc6f9c7,resource,in ground,"Silver, 0.01% in crude ore, in ground",kg,0,0
+14946240-b1ee-412c-b900-ed5728a4e684,resource,in ground,"Silver, 3.2ppm in sulfide, Ag 1.2ppm, Cu and Te, in crude ore, in ground",kg,0,0
+610786c8-148b-4331-b238-cb474531d182,resource,unspecified,"Silver, 3.2ppm in sulfide, Ag 1.2ppm, Cu and Te, in crude ore, in ground",kg,0,0
+d02343bd-b00d-4fb3-9bda-2e8183f3b012,resource,in ground,"Silver, Ag 2.1E-4%, Au 2.1E-4%, in ore, in ground",kg,0,0
+e5938101-6014-4f25-8bad-ae7500f8b396,resource,unspecified,"Silver, Ag 2.1E-4%, Au 2.1E-4%, in ore, in ground",kg,0,0
+d76320f7-6761-4864-92a6-660fa3453ffa,resource,in ground,"Silver, Ag 4.2E-3%, Au 1.1E-4%, in ore, in ground",kg,0,0
+ce00f777-5060-4ef6-9eee-3a593845d620,resource,unspecified,"Silver, Ag 4.2E-3%, Au 1.1E-4%, in ore, in ground",kg,0,0
+6f70e7c7-ef61-4489-b4f3-157e7e8541ef,resource,in ground,"Silver, Ag 4.6E-5%, Au 1.3E-4%, in ore, in ground",kg,0,0
+71f9788c-4f3c-4189-9fae-a392dda4cb39,resource,unspecified,"Silver, Ag 4.6E-5%, Au 1.3E-4%, in ore, in ground",kg,0,0
+cfaa80f4-8e19-4fd6-942a-eaea14812896,resource,in ground,"Silver, Ag 9.7E-4%, Au 9.7E-4%, Zn 0.63%, Cu 0.38%, Pb 0.014%, in ore, in ground",kg,0,0
+73c8ddf6-2d56-4def-9ac5-9a5d7d856a5c,resource,unspecified,"Silver, Ag 9.7E-4%, Au 9.7E-4%, Zn 0.63%, Cu 0.38%, Pb 0.014%, in ore, in ground",kg,0,0
+172ab2d8-6556-11dd-ad8b-0800200c9a66,resource,in ground,"Silver, ion",kg,0,0
+85d55b80-85fc-11e0-9d78-0800200c9a66,resource,in ground,"Slate, in ground",kg,0,0
+9ef0643e-cbd1-4f70-9862-cbab9fa239eb,resource,in ground,"Sodium bromide, in ground",kg,0,0
+4d81f2d8-1e44-44d0-8439-a1121c8bce27,resource,in ground,sodium carbonate,kg,0,0
+0b9159dd-305d-4add-802f-f7b780ed0289,resource,in ground,"Sodium chloride, in ground",kg,0,0
+a2a4f255-ad47-4cf8-b6a9-e10885d61407,resource,in ground,"Sodium nitrate, in ground",kg,0,0
+5bbcdc6d-b1a7-4b63-b625-76060c767de7,resource,in ground,"Sodium sulphate, various forms, in ground",kg,0,0
+bb2c690e-159d-4f13-ae03-8d69a67f9cc1,resource,in ground,soft wood (dry matter),kg,0,0
+172b2805-6556-11dd-ad8b-0800200c9a66,resource,in ground,Soil,kg,0,0
+5324b57a-96f1-4dc3-9dc5-544881960f4f,resource,in ground,"Spodumene, in ground",kg,0,0
+3e0034cd-21d6-4582-9fbf-09c26edd05df,resource,in ground,"Stibnite, in ground",kg,0,0
+033f8342-fd62-405e-a512-3fa8619e6ded,resource,in ground,stone,kg,0,0
+1f30d646-6556-11dd-ad8b-0800200c9a66,resource,in ground,Sulfate,kg,0,0
+1f30fd77-6556-11dd-ad8b-0800200c9a66,resource,in ground,Sulfur,kg,0,0
+852281f6-db73-4250-84d3-86b569fce0c1,resource,in ground,"Sulfur, in ground",kg,0,0
+d80610f2-df83-4e2a-9dc3-f74fced6577f,resource,in ground,"Sylvite, 25 % in sylvinite, in ground",kg,0,0
+bc97531c-12d8-4113-bcb2-663a47d12d0f,resource,in ground,"Talc, in ground",kg,0,0
+daea7dff-7a8a-447a-b205-f358deddadb9,resource,in ground,tantalum,kg,0,0
+5f1d740e-804d-4080-8ef9-aeaa0d8e1115,resource,in ground,"Tantalum, 81.9% in tantalite, 1.6E-4% in crude ore, in ground",kg,0,0
+a8f1d01e-db87-449a-83e8-8b9b3bec8d5f,resource,in ground,Tellurium,kg,0,0
+7a81cd45-7f4c-40b3-989c-6a65f42df999,resource,in ground,"Tellurium, 0.5ppm in sulfide, Te 0.2ppm, Cu and Ag, in crude ore, in ground",kg,0,0
+fc186b07-9955-469d-8e48-e3363b90d98d,resource,in ground,terbium,kg,0,0
+a492433d-dcdf-4da7-a6af-8cd8c52209bd,resource,in ground,thulium,kg,0,0
+29068976-6556-11dd-ad8b-0800200c9a66,resource,in ground,Tin,kg,0,20.202
+17dfe28e-1351-4223-9329-819c1ba6904e,resource,unspecified,Tin,kg,0,20.202
+31b4eea9-640e-4056-ac2f-0555627af18a,resource,in ground,"Tin, 79% in cassiterite, 0.1% in crude ore, in ground",kg,0,20.202
+f4896d79-6c8f-3118-92e7-f8759cfb1ee8,resource,in ground,"TiO2, 45-60% in Ilmenite,  in ground",kg,0,0
+78cd4852-e7b9-4301-adf7-51e730b0356a,resource,in ground,"TiO2, 54% in ilmenite, 2.6% in crude ore, in ground",kg,0,0
+ec0fa5ce-51b4-4792-a8e8-c4ee668eddc3,resource,in ground,"TiO2, 95% in rutile, 0.40% in crude ore, in ground",kg,0,0
+2906898f-6556-11dd-ad8b-0800200c9a66,resource,in ground,Titanium,kg,0,0
+e065a623-b1a7-4013-93ec-304934aa65f7,resource,in ground,Titanium ore,kg,0,0
+f05cca02-ec18-4acc-9939-59658ff9a554,resource,land,"Transformation, from arable",m2,0,0
+44359d15-59d8-44be-a256-68e4aeabe192,resource,unspecified,"Transformation, from arable",m2,0,0
+4b420f19-0421-461e-a0b6-7efbf580089b,resource,land,"Transformation, from arable, non-irrigated",m2,0,0
+ff6c4aa2-6baf-4ef2-82d4-14fadaf6b060,resource,unspecified,"Transformation, from arable, non-irrigated",m2,0,0
+c7869c43-266c-429d-bfd5-6b578ed32ce8,resource,land,"Transformation, from arable, non-irrigated, diverse-intensive",m2,0,0
+93c1f160-9027-469e-bbb3-32f2ca951759,resource,unspecified,"Transformation, from arable, non-irrigated, diverse-intensive",m2,0,0
+4da2ea28-8273-4901-9931-264169ec7731,resource,land,"Transformation, from arable, non-irrigated, fallow",m2,0,0
+e4d65952-4845-473f-bdc8-fb40c20ac3a4,resource,unspecified,"Transformation, from arable, non-irrigated, fallow",m2,0,0
+ab3e851e-21c9-47cf-8e7d-5f96dfae3ba5,resource,land,"Transformation, from arable, non-irrigated, monotone-intensive",m2,0,0
+822b9d39-087b-44c5-aff9-602b748294d8,resource,unspecified,"Transformation, from arable, non-irrigated, monotone-intensive",m2,0,0
+5eb25424-acb6-4ffa-a96a-5fdef05f6515,resource,land,"Transformation, from dump site",m2,0,0
+2dace710-44ce-4074-9617-65a5f2c1a3ee,resource,unspecified,"Transformation, from dump site",m2,0,0
+902b828c-5b1f-4a1b-ad0f-d795eaaf067c,resource,land,"Transformation, from dump site, benthos",m2,0,0
+9278dfef-7744-438f-865a-8c264c9de8cb,resource,unspecified,"Transformation, from dump site, benthos",m2,0,0
+c1513682-45ad-444e-afb5-27c660714e88,resource,land,"Transformation, from dump site, inert material landfill",m2,0,0
+9f10b83a-5b75-48dd-a103-2d27a2c8a6cb,resource,unspecified,"Transformation, from dump site, inert material landfill",m2,0,0
+7fdc928c-f347-45e7-82d7-046acdf878ae,resource,land,"Transformation, from dump site, residual material landfill",m2,0,0
+de48749a-85cb-4307-8a2b-c9d5830d0bae,resource,unspecified,"Transformation, from dump site, residual material landfill",m2,0,0
+b79e26a0-88db-441f-b79b-508506e81b93,resource,land,"Transformation, from dump site, sanitary landfill",m2,0,0
+032542d3-7078-4f85-bd95-75fdac9268d2,resource,unspecified,"Transformation, from dump site, sanitary landfill",m2,0,0
+7d5b5802-3698-4be8-98f8-ab7c1a2e9328,resource,land,"Transformation, from dump site, slag compartment",m2,0,0
+0d7c280e-9f07-48b7-bf01-5cfd0d475e1c,resource,unspecified,"Transformation, from dump site, slag compartment",m2,0,0
+0930b6b8-d9c6-4462-966f-ac7495b63bed,resource,land,"Transformation, from forest",m2,0,0
+99801a43-d476-4055-8d97-fb7c4ae173d4,resource,unspecified,"Transformation, from forest",m2,0,0
+38921804-39ac-4a71-b675-2d092357fe0d,resource,land,"Transformation, from forest, extensive",m2,0,0
+7f401bdd-4116-48ad-b217-013fd904d323,resource,unspecified,"Transformation, from forest, extensive",m2,0,0
+8d9f20e9-38f2-4a25-bb19-9da1e323fda4,resource,land,"Transformation, from forest, intensive",m2,0,0
+aa6a298f-893f-449d-8573-39f32fd43fe5,resource,unspecified,"Transformation, from forest, intensive",m2,0,0
+8c920eda-3eee-4782-ace6-c706fb363b88,resource,land,"Transformation, from forest, intensive, clear-cutting",m2,0,0
+0e1c3d27-fb97-457a-a5d0-a324e7043402,resource,unspecified,"Transformation, from forest, intensive, clear-cutting",m2,0,0
+e717f3cc-ac70-4c9b-be56-1614239b917e,resource,land,"Transformation, from forest, intensive, normal",m2,0,0
+8b03ce87-7aec-4106-8f9f-752c6174fda3,resource,unspecified,"Transformation, from forest, intensive, normal",m2,0,0
+99f1deff-a149-49bf-b1fd-95f7ff7d1331,resource,land,"Transformation, from forest, intensive, short-cycle",m2,0,0
+3f9dea81-3fba-46b9-83d5-23ffd5bae744,resource,unspecified,"Transformation, from forest, intensive, short-cycle",m2,0,0
+2e002771-9f22-43e3-9990-f06f8235700b,resource,land,"Transformation, from heterogeneous, agricultural",m2,0,0
+07d4460c-ae27-4717-9db9-9e0b1ea12dd5,resource,unspecified,"Transformation, from heterogeneous, agricultural",m2,0,0
+0331d547-57ea-4ec6-a746-3ab289c3626a,resource,land,"Transformation, from industrial area",m2,0,0
+4e48b83e-af69-429f-8941-2332e7ddc62a,resource,unspecified,"Transformation, from industrial area",m2,0,0
+bbcdd18c-4d16-4c28-b031-d988884030a7,resource,land,"Transformation, from industrial area, benthos",m2,0,0
+b93fac73-b3b1-4825-b1db-c129d404d3f3,resource,unspecified,"Transformation, from industrial area, benthos",m2,0,0
+b6dcefd8-3848-4338-9c3e-fe6e91f20937,resource,land,"Transformation, from industrial area, built up",m2,0,0
+12be05aa-48ad-49a8-a864-7a51ba56075b,resource,unspecified,"Transformation, from industrial area, built up",m2,0,0
+f9795c43-391d-4e31-a4ce-bee8259adb03,resource,land,"Transformation, from industrial area, vegetation",m2,0,0
+fa815715-eeb2-4cfc-b006-0e5877bd5932,resource,unspecified,"Transformation, from industrial area, vegetation",m2,0,0
+64d99cb5-3b4f-4195-b86f-c5f45b4dcd19,resource,land,"Transformation, from mineral extraction site",m2,0,0
+220b9a7a-1ced-462b-b645-e80253e189ee,resource,unspecified,"Transformation, from mineral extraction site",m2,0,0
+2c126bcc-bb63-4d63-bd72-f02a1e616809,resource,land,"Transformation, from pasture and meadow",m2,0,0
+54d144f3-a534-429d-bdd6-f3d8448ab4cc,resource,unspecified,"Transformation, from pasture and meadow",m2,0,0
+82f2476e-988b-4d7a-bde6-5da9337d1f65,resource,land,"Transformation, from pasture and meadow, extensive",m2,0,0
+a95a3a9d-8426-4bca-bc3c-05044865f3b9,resource,unspecified,"Transformation, from pasture and meadow, extensive",m2,0,0
+592bf69f-8551-4611-8942-4620be0adabe,resource,land,"Transformation, from pasture and meadow, intensive",m2,0,0
+7de6ab99-8e96-4b7b-ae4b-861200c73843,resource,unspecified,"Transformation, from pasture and meadow, intensive",m2,0,0
+fcb77a5a-6882-4aeb-82a9-ba57688d2224,resource,land,"Transformation, from permanent crop",m2,0,0
+69d8569b-a90e-4bf5-8a5d-e8d0c59068cc,resource,unspecified,"Transformation, from permanent crop",m2,0,0
+73cba245-5969-4076-8490-75a236073196,resource,land,"Transformation, from permanent crop, fruit",m2,0,0
+4fe8d4ab-fdd1-4316-8065-deb1edb04e39,resource,unspecified,"Transformation, from permanent crop, fruit",m2,0,0
+d0394db1-a1cd-4026-bf50-dd5e47331572,resource,land,"Transformation, from permanent crop, fruit, extensive",m2,0,0
+fe91efc5-25ce-4316-b0d1-43173a755777,resource,unspecified,"Transformation, from permanent crop, fruit, extensive",m2,0,0
+d585d599-05f1-47ff-8c41-790f51830b9b,resource,land,"Transformation, from permanent crop, fruit, intensive",m2,0,0
+9af35f20-e8f1-4e39-8241-f3e76741dc78,resource,unspecified,"Transformation, from permanent crop, fruit, intensive",m2,0,0
+31e4e26b-a997-4969-963d-243699aca3a8,resource,land,"Transformation, from permanent crop, vine",m2,0,0
+f84b2b33-df49-45d4-8949-d5ab8b800656,resource,unspecified,"Transformation, from permanent crop, vine",m2,0,0
+af41f691-3a3e-47a3-9e45-3b4d78469ae0,resource,land,"Transformation, from permanent crop, vine, extensive",m2,0,0
+63735d98-57b0-429c-8267-40a5f1da06b1,resource,unspecified,"Transformation, from permanent crop, vine, extensive",m2,0,0
+fa288b80-6ef1-4e80-b534-5c2e5c492fd8,resource,land,"Transformation, from permanent crop, vine, intensive",m2,0,0
+11700b93-5c22-4714-a468-0859f6b46b17,resource,unspecified,"Transformation, from permanent crop, vine, intensive",m2,0,0
+928ba839-d6e5-4d1e-b5fd-122998a9bbe2,resource,land,"Transformation, from sea and ocean",m2,0,0
+e15786b4-0445-4a67-8e9f-cb7b3e349935,resource,unspecified,"Transformation, from sea and ocean",m2,0,0
+17a5a406-333f-4b9e-8852-c2de50bc9585,resource,land,"Transformation, from shrub land, sclerophyllous",m2,0,0
+df1c10b2-021a-4db8-af05-267ceee43385,resource,unspecified,"Transformation, from shrub land, sclerophyllous",m2,0,0
+975ae6bf-9a02-4d6f-af7e-8f1253842fed,resource,land,"Transformation, from traffic area, rail embankment",m2,0,0
+20bfd418-5b2e-4c9c-ae57-cf7ebd573c2a,resource,unspecified,"Transformation, from traffic area, rail embankment",m2,0,0
+a99a8eaf-2f2c-42c6-b6ce-d5686a9ca249,resource,land,"Transformation, from traffic area, rail network",m2,0,0
+3aa37a9b-98ad-42b0-b7c9-bf472c9a2aa3,resource,unspecified,"Transformation, from traffic area, rail network",m2,0,0
+46b8b2fd-eb2a-413d-bc39-e7dc18a420ef,resource,land,"Transformation, from traffic area, road embankment",m2,0,0
+1d678d0d-fe42-429b-9aa9-d30127b0ca9c,resource,unspecified,"Transformation, from traffic area, road embankment",m2,0,0
+00907a61-b501-4f47-b688-1dc2b51d48c1,resource,land,"Transformation, from traffic area, road network",m2,0,0
+d50fbe3f-b265-4fde-bf05-4156fe27b0a3,resource,unspecified,"Transformation, from traffic area, road network",m2,0,0
+e71f95a5-fd82-4128-9fd1-be3f0e85d0fc,resource,land,"Transformation, from tropical rain forest",m2,0,0
+fbe76292-b1ff-4efe-8ac6-3a36c4f3c900,resource,unspecified,"Transformation, from tropical rain forest",m2,0,0
+29630a65-f38c-48a5-9744-c0121f586640,resource,land,"Transformation, from unknown",m2,0,0
+399f4fd0-8fd8-4a22-82ee-c7f3b6a3d22a,resource,unspecified,"Transformation, from unknown",m2,0,0
+a8e39acd-6e7f-4d43-973b-37e6b7c00037,resource,land,"Transformation, from urban, continuously built",m2,0,0
+14a00c9f-9976-44fd-aa01-e8bba2835841,resource,unspecified,"Transformation, from urban, continuously built",m2,0,0
+ba94eeb5-4b68-4848-a86e-71a9f3b70a4c,resource,land,"Transformation, from urban, discontinuously built",m2,0,0
+1e033b47-5e2f-4fd4-acc3-df3e2e3e56a5,resource,unspecified,"Transformation, from urban, discontinuously built",m2,0,0
+9c08496f-7895-44f9-8686-fe3154392da4,resource,land,"Transformation, from water bodies, artificial",m2,0,0
+34f9fc3a-0406-4a90-b85f-7df531350944,resource,unspecified,"Transformation, from water bodies, artificial",m2,0,0
+631d9552-1190-4edf-abc9-319139c90bd4,resource,land,"Transformation, from water courses, artificial",m2,0,0
+cbdd7871-f1a9-46ca-bd95-5863d459d34a,resource,unspecified,"Transformation, from water courses, artificial",m2,0,0
+c3f83a91-4888-41a4-add9-fd01678a1e5f,resource,land,"Transformation, to arable",m2,0,0
+7411975d-4167-467f-b36d-89eb1e83eeac,resource,unspecified,"Transformation, to arable",m2,0,0
+e97b784a-ec09-4b1b-9f14-cc0ce9799c9e,resource,land,"Transformation, to arable, non-irrigated",m2,0,0
+19f7928a-99ea-4206-b957-f06834edeb1b,resource,unspecified,"Transformation, to arable, non-irrigated",m2,0,0
+91a067cc-543a-4d73-a0c0-feb1f8935756,resource,land,"Transformation, to arable, non-irrigated, diverse-intensive",m2,0,0
+9497544b-a783-486e-a029-1f042de08741,resource,unspecified,"Transformation, to arable, non-irrigated, diverse-intensive",m2,0,0
+54b82481-32a3-4e82-bac7-1df475dbc80c,resource,land,"Transformation, to arable, non-irrigated, fallow",m2,0,0
+9348a45e-047c-4f05-9794-648e9b9dae33,resource,unspecified,"Transformation, to arable, non-irrigated, fallow",m2,0,0
+2e52cbfa-94d7-432b-892f-431daa71a6ef,resource,land,"Transformation, to arable, non-irrigated, monotone-intensive",m2,0,0
+d1707523-ac5e-4145-9676-386da2a30a7c,resource,unspecified,"Transformation, to arable, non-irrigated, monotone-intensive",m2,0,0
+451e6159-6db9-430a-82c6-2452d120431a,resource,unspecified,"Transformation, to arable, organic",m2,0,0
+90a5a447-af6f-421a-8201-011f07ad1150,resource,land,"Transformation, to dump site",m2,0,0
+3abec56e-98ea-44d2-b91d-7ae9bcd2141d,resource,unspecified,"Transformation, to dump site",m2,0,0
+9b5b8c40-38fe-42fb-8130-56c15e485fd0,resource,land,"Transformation, to dump site, benthos",m2,0,0
+92138f4d-5e83-41fb-a202-6d59c36d5231,resource,unspecified,"Transformation, to dump site, benthos",m2,0,0
+d10b390c-9d0c-4f59-b31d-3d0d70e77a35,resource,land,"Transformation, to dump site, inert material landfill",m2,0,0
+267ca4fd-2526-451e-86e0-796318d509b6,resource,unspecified,"Transformation, to dump site, inert material landfill",m2,0,0
+8f5c8cb3-dccd-45da-9f1f-d1c61cd789c3,resource,land,"Transformation, to dump site, residual material landfill",m2,0,0
+c8c9bc86-8649-4637-a435-c2b52d5e1ddf,resource,unspecified,"Transformation, to dump site, residual material landfill",m2,0,0
+1a568858-efa8-4c2a-b46e-82b6e66b6072,resource,land,"Transformation, to dump site, sanitary landfill",m2,0,0
+5cf68994-cf11-4e37-9834-1f0e1c382fa5,resource,unspecified,"Transformation, to dump site, sanitary landfill",m2,0,0
+d73b27a2-81bd-4264-baa5-ce4aca3545be,resource,land,"Transformation, to dump site, slag compartment",m2,0,0
+60fbcca2-15a2-4791-ab89-09921211487f,resource,unspecified,"Transformation, to dump site, slag compartment",m2,0,0
+bba9f623-5919-4ef3-b98d-c94af1553179,resource,land,"Transformation, to forest",m2,0,0
+9be62afc-89f5-4c81-86b0-e3fec4dbd311,resource,unspecified,"Transformation, to forest",m2,0,0
+dae78878-37f4-4012-a9ea-62a0e9bb6720,resource,land,"Transformation, to forest, extensive",m2,0,0
+3abea18f-cd91-4106-b23d-093c49427525,resource,unspecified,"Transformation, to forest, extensive",m2,0,0
+d264f35c-7f48-47d8-885b-057bdafa04a3,resource,land,"Transformation, to forest, intensive",m2,0,0
+c16d78c6-a944-4bfa-8e7a-b292b5b49d2e,resource,unspecified,"Transformation, to forest, intensive",m2,0,0
+cdbfd224-21fe-457e-a47d-26a525965051,resource,land,"Transformation, to forest, intensive, clear-cutting",m2,0,0
+0cab58d3-f449-48d4-94bd-ec09d19736d6,resource,unspecified,"Transformation, to forest, intensive, clear-cutting",m2,0,0
+994d61de-fbb0-4187-a4d4-b11c3c2b9102,resource,land,"Transformation, to forest, intensive, normal",m2,0,0
+43c326df-fae0-4e31-a1f2-5a9dcf3f2244,resource,unspecified,"Transformation, to forest, intensive, normal",m2,0,0
+3573b5ab-5158-4048-a364-aad9e706acb4,resource,land,"Transformation, to forest, intensive, short-cycle",m2,0,0
+0775d4c9-2c91-4a0d-a4a7-1c6b96e47ea4,resource,unspecified,"Transformation, to forest, intensive, short-cycle",m2,0,0
+fdda4f8e-b620-4df6-92a9-101a251d2f42,resource,land,"Transformation, to heterogeneous, agricultural",m2,0,0
+9607e93d-3572-461f-bb2c-8597cc23bab0,resource,unspecified,"Transformation, to heterogeneous, agricultural",m2,0,0
+8a00b5c3-2465-4520-9f43-22a64c846b6c,resource,land,"Transformation, to industrial area",m2,0,0
+b5d37ef1-0d36-4c00-8a38-54bbdc5e1eda,resource,unspecified,"Transformation, to industrial area",m2,0,0
+c7d2cf2d-0d21-45f7-9769-b07f3e53b76a,resource,land,"Transformation, to industrial area, benthos",m2,0,0
+e6dd1a4b-0a12-4b46-9245-6ec9b63c8255,resource,unspecified,"Transformation, to industrial area, benthos",m2,0,0
+4624deff-2016-41d4-b2bf-3db8dab88779,resource,land,"Transformation, to industrial area, built up",m2,0,0
+c24fe83a-3170-49a3-ab67-279d34b8d920,resource,unspecified,"Transformation, to industrial area, built up",m2,0,0
+6f2f97dc-2aeb-482c-a20a-9747f0746898,resource,land,"Transformation, to industrial area, vegetation",m2,0,0
+d998622b-6ec3-4082-80b9-22205251fb03,resource,unspecified,"Transformation, to industrial area, vegetation",m2,0,0
+626915e9-2424-4059-8b6a-fae47161acdf,resource,land,"Transformation, to mineral extraction site",m2,0,0
+c3eff967-20d8-4bcd-bd26-2dc2592a37b9,resource,unspecified,"Transformation, to mineral extraction site",m2,0,0
+7a16b680-6d9a-4db3-a23e-0ec64aca5995,resource,land,"Transformation, to pasture and meadow",m2,0,0
+c8b1dd70-8a13-47c2-bbcf-b075a720de7f,resource,unspecified,"Transformation, to pasture and meadow",m2,0,0
+7464da86-f239-4bef-a778-04d5818bb956,resource,land,"Transformation, to pasture and meadow, extensive",m2,0,0
+3dd58a37-be28-49d0-b685-9282619d86f4,resource,unspecified,"Transformation, to pasture and meadow, extensive",m2,0,0
+ec242c43-095c-4b42-8907-e0f13573f0a4,resource,land,"Transformation, to pasture and meadow, intensive",m2,0,0
+45698560-88a6-41b7-bc82-2037b6b1e005,resource,unspecified,"Transformation, to pasture and meadow, intensive",m2,0,0
+84912057-3cde-4a28-baac-6395a42b9df3,resource,unspecified,"Transformation, to pasture and meadow, organic",m2,0,0
+6e02ccfc-9eb5-4a51-be9a-870c1087c833,resource,land,"Transformation, to permanent crop",m2,0,0
+bc55a5b7-5a07-4ba7-87af-6f374d79ef06,resource,unspecified,"Transformation, to permanent crop",m2,0,0
+a487b7db-318a-46ff-8e52-2837fab777ad,resource,land,"Transformation, to permanent crop, fruit",m2,0,0
+ecdb040b-aae3-495b-804c-e6b3d6f687ff,resource,unspecified,"Transformation, to permanent crop, fruit",m2,0,0
+59df4945-6ee2-4ea6-9ef7-36c4f4b478f6,resource,land,"Transformation, to permanent crop, fruit, extensive",m2,0,0
+db6f90ef-27fc-41a8-a541-07efdce1fab5,resource,unspecified,"Transformation, to permanent crop, fruit, extensive",m2,0,0
+93ac2969-a4e9-49b5-8b97-5cbc6b9b2601,resource,land,"Transformation, to permanent crop, fruit, intensive",m2,0,0
+07a366fe-1c9e-4651-ad1a-1da666316417,resource,unspecified,"Transformation, to permanent crop, fruit, intensive",m2,0,0
+3f8e24d7-3d44-4a47-870f-9e3e74decca4,resource,land,"Transformation, to permanent crop, vine",m2,0,0
+975543fa-3eed-4b0c-b87b-50f26630fe89,resource,unspecified,"Transformation, to permanent crop, vine",m2,0,0
+2cb441cd-8d2e-4e5c-a208-48c4fa005c41,resource,land,"Transformation, to permanent crop, vine, extensive",m2,0,0
+ea3bc981-8a35-40e1-82bd-33a12820f98c,resource,unspecified,"Transformation, to permanent crop, vine, extensive",m2,0,0
+aa784c1b-0d0b-4c69-b631-b045d6ee61af,resource,land,"Transformation, to permanent crop, vine, intensive",m2,0,0
+ef4e5109-025b-4786-860e-9dcc2db701a0,resource,unspecified,"Transformation, to permanent crop, vine, intensive",m2,0,0
+ebb16be1-8db3-42a2-8123-418787422cfe,resource,land,"Transformation, to sea and ocean",m2,0,0
+65b5162f-5ca9-4721-91cf-00a929960222,resource,unspecified,"Transformation, to sea and ocean",m2,0,0
+9089d7ad-09b1-4174-a188-8844ebde2d5d,resource,land,"Transformation, to shrub land, sclerophyllous",m2,0,0
+258ade11-47cc-48fd-b49f-767a2f123cd6,resource,unspecified,"Transformation, to shrub land, sclerophyllous",m2,0,0
+48f50b54-6156-418c-b4be-d14558be12c8,resource,land,"Transformation, to traffic area, rail embankment",m2,0,0
+826a2a83-e704-48f5-87c4-211cb869cc73,resource,unspecified,"Transformation, to traffic area, rail embankment",m2,0,0
+0abf9db7-b5a2-4c18-8ec6-aca3a7fb5579,resource,land,"Transformation, to traffic area, rail network",m2,0,0
+cffc8ff1-63bd-40d8-8b91-13cbee6457b3,resource,unspecified,"Transformation, to traffic area, rail network",m2,0,0
+a97a1cec-673d-448a-b3ba-8ea16fe44973,resource,land,"Transformation, to traffic area, rail/road embankment",m2,0,0
+04eb0695-e67b-46e5-9516-da6bde119822,resource,land,"Transformation, to traffic area, road embankment",m2,0,0
+565414ae-fff7-4f41-9668-a5a7d12874a9,resource,unspecified,"Transformation, to traffic area, road embankment",m2,0,0
+a42347d2-09f1-405e-95dd-bf6ac03765d8,resource,land,"Transformation, to traffic area, road network",m2,0,0
+0ee752cd-5b6b-458d-b660-3e45a6798413,resource,unspecified,"Transformation, to traffic area, road network",m2,0,0
+88e8456c-dc23-4bb4-aed5-a4186a2fbf77,resource,land,"Transformation, to tropical rain forest",m2,0,0
+e3c1224d-1958-4fbb-b0e3-91943e5975c7,resource,unspecified,"Transformation, to tropical rain forest",m2,0,0
+512a5356-8059-4772-a43f-42e3c4f3d299,resource,land,"Transformation, to unknown",m2,0,0
+2299398e-0846-4290-bcab-09bda2e61ee3,resource,unspecified,"Transformation, to unknown",m2,0,0
+66f25f1d-1898-4827-bcbb-ca82f15c4d02,resource,land,"Transformation, to urban, continuously built",m2,0,0
+1ba33265-7100-47b7-b9ed-1f1a74fbb141,resource,unspecified,"Transformation, to urban, continuously built",m2,0,0
+55beee8d-d04e-4307-bb0e-4e113dc07ee7,resource,land,"Transformation, to urban, discontinuously built",m2,0,0
+366ece56-e09c-4acd-b615-aaedd9bbe777,resource,unspecified,"Transformation, to urban, discontinuously built",m2,0,0
+84b65d8f-2edd-4ddd-8f68-ca28d1c681b0,resource,land,"Transformation, to water bodies, artificial",m2,0,0
+426e316e-db90-40ec-9f45-fa08e6db160c,resource,unspecified,"Transformation, to water bodies, artificial",m2,0,0
+090e9aa9-a9a9-4878-9634-3ad0ba7fbc91,resource,land,"Transformation, to water courses, artificial",m2,0,0
+7e2b64d5-3c75-4adf-88a6-d54b4bb46d3c,resource,unspecified,"Transformation, to water courses, artificial",m2,0,0
+1abf3fe9-5261-4a0a-9f0b-7a9027d73f34,resource,in ground,"Trona, in ground",kg,0,0
+d0696f95-6cb3-453b-b849-c99ba9c90c28,resource,in ground,"Ulexite, in ground",kg,0,0
+5ca12a7c-cfc9-4de9-a083-2e5abea93e7e,resource,in ground,Underground extracted ore,kg,0,0
+bb870269-e5f8-4a3c-964d-59aed4b03670,resource,in ground,Underground Mine Ore,kg,0,0
+3e4d2966-6556-11dd-ad8b-0800200c9a66,resource,in ground,Uranium,kWh,0,0
+ed65c408-2351-4f62-8430-dcd2f62ab70e,resource,unspecified,Uranium,kg,0,0
+6b78c48f-bacf-4597-ac6d-ec7d6a0c4411,resource,in ground,"Uranium oxide (U3O8), 332 GJ per kg, in ore",kg,0,0
+7ae3bfc2-8532-11e0-9d78-0800200c9a66,resource,in ground,"Uranium, 2291 GJ per kg, in ground",kg,0,0
+2ba5e39b-adb6-4767-a51d-90c1cf32fe98,resource,in ground,"Uranium, in ground",kg,0,0
+14204a64-9301-4056-b2ec-3f2362071f3c,resource,in ground,Vanadium,kg,0,0
+bea19217-6a28-4711-8142-2e71090c0b46,resource,in ground,"Vermiculite, in ground",kg,0,0
+f6df5030-8e06-4276-bfeb-219db8dab104,resource,in ground,"Volume occupied, final repository for low-active radioactive waste",m3,0,0
+adb4b590-7fb2-47b6-84e7-d4746a94c7b5,resource,in ground,"Volume occupied, final repository for radioactive waste",m3,0,0
+9a9d71c7-79f7-42d0-af47-282d22a7cf07,resource,in water,"Volume occupied, reservoir",m3*a,0,0
+8bd1295e-4af1-4177-88a2-6f56ac8e4546,resource,in ground,"Volume occupied, underground deposit",m3,0,0
+3e4d9e9e-6556-11dd-ad8b-0800200c9a66,resource,in water,Water,kg,0,0
+0609bdf8-819f-4556-8686-94e3a2476f2e,resource,in water,Water (fresh water),kg,0,0
+67b7362f-588a-492d-a060-fa0a50856668,resource,in water,Water (trona rich),kg,0,0
+f838aec9-cb26-4597-bb6f-478cdf32e32a,resource,in water,Water Cooling fresh,kg,0,0
+86a6fa1f-11d1-4607-bafc-7ed90fdcf21b,resource,in water,Water Cooling sea,kg,0,0
+47ede456-cb14-44fd-bc8e-01cb1bee4af1,resource,unspecified,"Water, barrage",kg,0,0
+3c27fe4e-eec8-4bea-91cd-afc0b0ab138f,resource,unspecified,"Water, cooling, drinking",kg,0,0
+31950f2d-17c2-469f-9066-0f6dbb76ce7a,resource,unspecified,"Water, cooling, surface",kg,0,0
+fc1c42ce-a759-49fa-b987-f1ec5e503db1,resource,in water,"Water, cooling, unspecified natural origin",m3,0,0
+f31750b0-268a-4d18-b694-8e79e91aff86,resource,unspecified,"Water, cooling, unspecified natural origin",m3,0,0
+96ad8bf8-e303-4034-a27c-631b5115fa4c,resource,unspecified,"Water, cooling, well, in ground",kg,0,0
+09a69d95-307e-4332-a566-1ce37f032853,resource,in water,"Water, feed",kg,0,0
+4a57e617-eb1f-4c75-b6d9-61dea2d82295,resource,unspecified,"Water, fossil",m3,0,0
+fe0acd60-3ddc-11dd-ae59-0050c2490048,resource,in water,"Water, ground",kg,0,0
+f835e4b9-3073-4547-ab20-ba20886fd6a3,resource,unspecified,"Water, groundwater consumption",kg,0,0
+1acb026e-9de6-48fe-9e0d-be4d24125bbc,resource,in water,"Water, lake",m3,0,0
+e0e6bb44-1b7b-4d85-a3f8-1ee6a1e983d4,resource,unspecified,"Water, lake",m3,0,0
+c56bfea1-912d-468f-ba43-bef7c14c8c1e,resource,unspecified,"Water, process and cooling, unspecified natural origin",m3,0,0
+1fef4759-76ce-4443-9a0e-cfa38c4ce14a,resource,unspecified,"Water, process, drinking",kg,0,0
+a945fa6e-b056-4eec-b684-cf42e461d64c,resource,unspecified,"Water, process, surface",kg,0,0
+433b7ce7-5c2d-41c3-80ef-ead7f45c8699,resource,in water,"Water, process, unspecified natural origin",m3,0,0
+4dbbc4de-4e1b-4b19-b6e4-d89f39a4dd80,resource,unspecified,"Water, process, unspecified natural origin",m3,0,0
+6efff6a9-428a-4062-b415-3950e32c1dab,resource,unspecified,"Water, process, well, in ground",kg,0,0
+e0241436-ad0b-40ab-90f8-db4fd79f4e8c,resource,in water,"Water, rain",kg,0,0
+22c11859-a872-43da-84ee-bd7423a50f5e,resource,unspecified,"Water, rain",m3,0,0
+8c75e7ab-8ab8-41e4-b394-c166ff5b050d,resource,in water,"Water, river",m3,0,0
+30aa8b31-d824-4c3a-b6b3-d141f710b63f,resource,unspecified,"Water, river",m3,0,0
+629ffbca-ca71-4e4b-a006-ca9bdd9cd1df,resource,in water,"Water, salt, ocean",m3,0,0
+79238018-8ec1-4615-9469-2b0df95a43c3,resource,in water,"Water, salt, sole",m3,0,0
+1f31247d-6556-11dd-ad8b-0800200c9a66,resource,in water,"Water, surface",kg,0,0
+75b5c052-b7fa-48f6-8ce8-cfefed1f6fd2,resource,unspecified,"Water, Surface water consumption",kg,0,0
+b8e26d9b-b07b-45b7-a2dc-5320a8934416,resource,unspecified,"Water, thermoelectric groundwater consumption",kg,0,0
+e07f3eae-2be2-4768-bb89-11e5bf4c743e,resource,unspecified,"Water, thermoelectric surface water consumption",kg,0,0
+8c1494a5-4987-4715-aa2d-1908c495f4eb,resource,in water,"Water, turbine use, unspecified natural origin",m3,0,0
+5be81c7a-31d9-4b79-b9e4-50e92d78a014,resource,unspecified,"Water, turbine use, unspecified natural origin",m3,0,0
+831f249e-53f2-49cf-a93c-7cee105f048e,resource,in water,"Water, unspecified natural origin",m3,0,0
+a2a9cda7-9dd0-4a39-b422-f45298906dd8,resource,unspecified,"Water, unspecified natural origin",m3,0,0
+bea8ee06-61e8-4770-abce-6ed950985dfe,resource,in water,"Water, unspecified origin",m3,0,0
+67c40aae-d403-464d-9649-c12695e43ad8,resource,in water,"Water, well, in ground",m3,0,0
+4deca3ec-ae40-460b-b063-35934d4fc936,resource,unspecified,"Water, well, in ground",m3,0,0
+9e0de545-41c5-4d35-897d-561df22e6272,resource,in water,"Water, with river silt",kg,0,0
+c52e8414-f232-4c6a-bff2-5726189789ee,resource,in air,"Xenon, in air",kg,0,0
+10d3e29a-0080-42a8-8bbd-e76cffeededc,resource,in ground,ytterbium,kg,0,0
+080132f4-d8a5-4ff3-b926-c85847efd77c,resource,in ground,Yttrium,kg,0,0
+64b1ce4a-6556-11dd-ad8b-0800200c9a66,resource,in ground,Zinc,kg,0,0.13771
+a1569b7b-2b28-43ab-81fd-19795ba7aea3,resource,unspecified,Zinc,kg,0,0.13771
+f515ddbe-76f2-380d-bdf7-425fec968275,resource,in ground,"Zinc 9%, in sulfide, Zn 5.34% and Pb 2.97% in crude ore, in ground",kg,0,0.13771
+fb68c411-dc39-40d4-b237-5f97eb47151c,resource,in ground,"Zinc 9%, Lead 5%, in sulfide, in ground",kg,0,0.13771
+c26360fc-8a3a-4b16-b311-2b087365ad92,resource,unspecified,"Zinc 9%, Lead 5%, in sulfide, in ground",kg,0,0.13771
+90077a83-ea91-412d-b52d-1b212b3cfbc9,resource,unspecified,Zinc ore,kg,0,0.13771
+0b5f0a27-ef5b-41ad-985e-3f7d85ecfa5f,resource,in ground,"Zinc ore, 12.6%, in ground",kg,0,0.13771
+a0012e5b-d088-4452-960f-90624c2f01d8,resource,in ground,"Zinc ore, 8%, in ground",kg,0,0.13771
+71632d17-08dc-435f-bc90-8435c8f4f0fe,resource,in ground,"Zinc ore, sulfide, in ground",kg,0,0.13771
+3faef344-9e52-47a3-a317-e17b824cc540,resource,in ground,"Zinc, 9.0% in sulfide, Zn 5.3%, Pb, Ag, Cd, In, in ground",kg,0,0.13771
+ba72cade-a1ef-43f4-b021-a7580b632f1b,resource,in ground,"Zinc, copper ore (4.07%, 2.59%)",kg,0,0.13771
+993428a3-5bd9-4763-bfea-3962f6979e49,resource,in ground,"Zinc, copper, lead ore (2.11% Zn, 0.51% Cu, 0.86% Pb), in ground",kg,0,0.13771
+aa87a48b-29da-4cae-8655-ec1c7622341a,resource,in ground,"Zinc, copper, lead ore (4% Zn, 0.09% Cu, 0.65% Pb), in ground",kg,0,0.13771
+261c9f82-5503-4726-83cc-cabf54a1c351,resource,in ground,"Zinc, copper, lead ore (5.37% Zn, 0.22% Cu, 0.2% Pb), in ground",kg,0,0.13771
+dd137af9-1da7-4c8d-87fd-f149e1abc52f,resource,in ground,"Zinc, copper, lead ore (6.95% Zn, 0.13% Cu, 2.04% Pb), in ground",kg,0,0.13771
+a1965b07-28a5-43d4-8ef4-9289e970fae9,resource,in ground,"Zinc, lead ore (21.7% Zn, 5.6% Pb), in ground",kg,0,0.13771
+24d00382-b3dc-4a9b-9264-656d962f57f1,resource,in ground,"Zinc, lead ore (4.21% Zn, 4.96% Pb), in ground",kg,0,0.13771
+bfcaba32-564a-4427-a136-e74102d7ccda,resource,in ground,"Zinc, lead ore, (9.7, 14% Zn, 3.1, 6.5% Pb), in ground",kg,0,0.13771
+df76d6a0-a274-4b54-90a2-a5cdf6b22404,resource,in ground,"Zinc, lead, copper ore (12%, 3%, 2%)",kg,0,0.13771
+2a907205-7f77-49e7-95ec-351bce98c6e9,resource,in ground,"Zinc, Lead, Silver, ore (8,54% Zn, 5,48% Pb, 94 g/t Ag)",kg,0,0.13771
+f8f1ba14-9934-4678-8a78-e2cf1fce7775,resource,in ground,"Zinc, Zn 0.63%, Au 9.7E-4%, Ag 9.7E-4%, Cu 0.38%, Pb 0.014%, in ore, in ground",kg,0,0.13771
+3ae47837-9e71-410d-9d93-7caea4f0e54b,resource,unspecified,"Zinc, Zn 0.63%, Au 9.7E-4%, Ag 9.7E-4%, Cu 0.38%, Pb 0.014%, in ore, in ground",kg,0,0.13771
+e07b4402-abe3-4346-8c42-051c5983bd1e,resource,in ground,"Zirconia, as baddeleyite, in ground",kg,0,0
+76bcc22f-224c-40a4-9b22-9621467498cf,resource,in ground,Zirconium,kg,0,0
+fcee6eab-e906-4ddf-bc14-2b131b937893,resource,in ground,"Zirconium, 50% in zircon, 0.39% in crude ore, in ground",kg,0,0
