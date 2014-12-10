@@ -1,0 +1,534 @@
+###MAIN CONTROL FOR MODEL#
+#
+require(ggthemes)#
+require(RCurl)#
+require(scales)#
+getwd()#
+###Enter location of CZTS_model folder#
+setwd("/Users/Ryan/Git/Scott_Cullen_LCA")#
+#What is the anticipated device efficiency#
+#
+deveff<-.105#
+#
+#How big is each device?#
+m2size<-1#
+#Desired End Capacity in Kilowatts Installed#
+desired_capacity_kw<-1000000#
+#
+#Size of each installation#
+System_Size<-4#
+#
+#Runs Code for Base Locations, returns actual kwh/year for year 1 that will be produced given the capacity and the geocodes of the locations.#
+#
+source("Model_files/area.R",echo=TRUE)#
+#
+##Annual Produced KWH#
+kw_actual/desired_capacity_kw#
+kwh_produced_year#
+#
+#What is the manufacture location? Enter in form c("PHOENIX+AZ","ATLANTA+GA")#
+#
+manufacture_locations<-c("Phoenix+AZ","Atlanta+GA","Dallas+TX")#
+#
+source("geo/shippingmaps.R",echo=TRUE)#
+#
+###Reports Number of Kilometers that need to be shipped from manufacture to bases based on current estimates####
+#
+kilometers_shipping#
+source("Model_files/normalization.R",echo=TRUE)#
+source("transport/shiptobase.R",echo=TRUE)#
+print(shippingscores)#
+#
+#Number of "installations" that are needed at set size to achieve desired capacity#
+print(reps)#
+#
+###LCA Results#
+source("Graphite Paint/graphite_paint_model.R",echo=TRUE)#
+source("Graphene/graphene.R",echo=TRUE)#
+source("Molybdenum_glass_ito/Molybdenum_glass_ito.R",echo=TRUE)#
+#
+##Load Normalization Data#
+source("Model_files/normalization.R",echo=TRUE)#
+#
+##Conduct full LCA and analyze results#
+source("Model_files/LCA_ProcessResults.R",echo=TRUE)#
+print(resultgraph1)#
+#
+resultgraph1
+###MAIN CONTROL FOR MODEL#
+#
+require(ggthemes)#
+require(RCurl)#
+require(scales)#
+getwd()#
+###Enter location of CZTS_model folder#
+setwd("/Users/Ryan/Git/Scott_Cullen_LCA")#
+#What is the anticipated device efficiency#
+#
+deveff<-.105#
+#
+#How big is each device?#
+m2size<-1#
+#Desired End Capacity in Kilowatts Installed#
+desired_capacity_kw<-1000000#
+#
+#Size of each installation#
+System_Size<-4#
+#
+#Runs Code for Base Locations, returns actual kwh/year for year 1 that will be produced given the capacity and the geocodes of the locations.#
+#
+source("Model_files/area.R",echo=TRUE)#
+#
+##Annual Produced KWH#
+kw_actual/desired_capacity_kw#
+kwh_produced_year#
+#
+#What is the manufacture location? Enter in form c("PHOENIX+AZ","ATLANTA+GA")#
+#
+manufacture_locations<-c("Phoenix+AZ","Atlanta+GA","Dallas+TX")#
+#
+source("geo/shippingmaps.R",echo=TRUE)#
+#
+###Reports Number of Kilometers that need to be shipped from manufacture to bases based on current estimates####
+#
+kilometers_shipping#
+source("Model_files/normalization.R",echo=TRUE)#
+source("transport/shiptobase.R",echo=TRUE)#
+print(shippingscores)#
+#
+#Number of "installations" that are needed at set size to achieve desired capacity#
+print(reps)#
+#
+###LCA Results#
+source("Graphite Paint/graphite_paint_model.R",echo=TRUE)#
+source("Graphene/graphene.R",echo=TRUE)#
+source("Molybdenum_glass_ito/Molybdenum_glass_ito.R",echo=TRUE)#
+#
+##Load Normalization Data#
+source("Model_files/normalization.R",echo=TRUE)#
+#
+##Conduct full LCA and analyze results#
+source("Model_files/LCA_ProcessResults.R",echo=TRUE)#
+print(resultgraph1)#
+#
+resultgraph1
+head(partlca)
+head(nonelca)
+getwd()
+###MAIN CONTROL FOR MODEL#
+#
+require(ggthemes)#
+require(RCurl)#
+require(scales)#
+getwd()#
+###Enter location of CZTS_model folder#
+setwd("/Users/Ryan/Git/Scott_Cullen_LCA")#
+#What is the anticipated device efficiency#
+#
+deveff<-.105#
+#
+#How big is each device?#
+m2size<-1#
+#Desired End Capacity in Kilowatts Installed#
+desired_capacity_kw<-1000000#
+#
+#Size of each installation#
+System_Size<-4#
+#
+#Runs Code for Base Locations, returns actual kwh/year for year 1 that will be produced given the capacity and the geocodes of the locations.#
+#
+source("Model_files/area.R",echo=TRUE)#
+#
+##Annual Produced KWH#
+kw_actual/desired_capacity_kw#
+kwh_produced_year#
+#
+#What is the manufacture location? Enter in form c("PHOENIX+AZ","ATLANTA+GA")#
+#
+manufacture_locations<-c("Phoenix+AZ","Atlanta+GA","Dallas+TX")#
+#
+source("geo/shippingmaps.R",echo=TRUE)#
+#
+###Reports Number of Kilometers that need to be shipped from manufacture to bases based on current estimates####
+#
+kilometers_shipping#
+source("Model_files/normalization.R",echo=TRUE)#
+source("transport/shiptobase.R",echo=TRUE)#
+print(shippingscores)#
+#
+#Number of "installations" that are needed at set size to achieve desired capacity#
+print(reps)#
+#
+###LCA Results#
+source("Graphite Paint/graphite_paint_model.R",echo=TRUE)#
+source("Graphene/graphene.R",echo=TRUE)#
+source("Molybdenum_glass_ito/Molybdenum_glass_ito.R",echo=TRUE)#
+#
+##Load Normalization Data#
+source("Model_files/normalization.R",echo=TRUE)#
+#
+##Conduct full LCA and analyze results#
+source("Model_files/LCA_ProcessResults.R",echo=TRUE)#
+print(resultgraph1)
+resultgraph1
+getwd()
+help(ggsave)
+ggsave("Figures/normvalue.png",resultgraph1,width=15,height=10,units=c("in"))
+ggplot(fullset2[with(fullset2, order(-value)),], aes(mat,(value*totalvalue),fill=Var2))+geom_bar(stat="identity",position="stack")+geom_hline(yintercept=0)+facet_wrap(~Var1, scales="free_y")+ggtitle("Contribution of Processes to Back Contact Impacts")+xlab("Impact Categories")+ylab("Total Impact")+scale_fill_tableau("Process Name",palette="tableau20")+scale_x_discrete(breaks=c("Graphene","Graphite","Molybdenum"))+scale_y_continuous(labels=scientific_format(digits=2))+theme_bw()+theme(strip.background=element_rect(colour="NA", fill="NA"), panel.border=element_rect(colour="grey"), panel.grid.major=element_line(colour="NA"))+theme(axis.text.x=element_text(angle=90))+theme(text = element_text(family="Times New Roman",size=26))
+ggsave("Figures/contributeappliedtototals.png",width=14,height=10, unit="in")
+ggmap(usa, extent = 'panel', maprange = TRUE)+geom_point(data=unique(fullsetb),aes(x=site_lon,y=site_lat,colour=totkwh, size=totkwh))+scale_colour_gradient(low="blue",high="red")+ggtitle("Locations of US Army Installations and Solar Energy Potential")+scale_size(guide=FALSE)
+sum(dat$min_km)#
+#
+#Phoenix
+ggmap(usa, extent = 'panel', maprange = TRUE)+geom_point(data=geobasic,aes(x=lon,y=lat,colour=GWh, size=percent))+scale_colour_gradient(low="blue",high="red")+ggtitle("Locations of US Army Installations and Solar Energy Potential")+scale_size(guide=FALSE)
+ggsave("geo/mapofinstallations.png")
+require(RCurl)#
+dest_string<-paste(partset$site_lat[1:50],partset$site_lon[1:50], sep=",",collapse="|")
+dest_string
+origins<-paste(manufacture_locations,collapse="|")
+part1<-"https://maps.googleapis.com/maps/api/distancematrix/json?"
+part2<-"origins="
+part2a<-origins
+part3<-"&destinations="
+part3a<-dest_string
+part4<-"&mode=driving&key="
+google_API_KEY<-"AIzaSyAslkcbAgUfvwcaHFhwD_hCnak9Dg82yNo"
+dir_address<-paste(part1,part2,part2a,part3,part3a,part4,google_API_KEY,sep="")
+file=getURL(dir_address)
+file
+file
+goog_data<-fromJSON(file)#
+for(i in 1:50){#
+    rs<-c()#
+    for(k in 1:length(manufacture_locations)){#
+        if(length(goog_data$rows[[k]]$elements[[i]]$distance$value)>=1){#
+          rs<-append(rs,goog_data$rows[[k]]$elements[[i]]$distance$value)#
+        }#
+    }#
+    if(length(rs)>=1)#
+    {partset$distance[i]<-min(rs)}#
+}
+goog_data
+goog_data$rows[[2]]$elements[[2]]$distance$value
+partset$distance
+transport_kgkm_graphene
+mass_one_install_graphene*(dat$min_km)
+fullsetb
+mapship
+mapsusa+geom_path(data=paths,aes(x=lon,y=lat,group=id, colour=totkwh/sum(totkwh,na.rm=TRUE),size=totkwh/sum(totkwh,na.rm=TRUE)), lineend="round")+ggtitle("Map of Origins and Destinations for PV Panels\n and % of Produced KWH")+scale_colour_continuous("% Total Production",low="yellow",high="red")+scale_size(guide="none")
+paths
+mapsusa+geom_path(data=paths,aes(x=lon,y=lat,group=id, colour=totkwh/sum(totkwh,na.rm=TRUE),size=totkwh/sum(totkwh,na.rm=TRUE)), lineend="round")+ggtitle("Map of Origins and Destinations for PV Panels\n and % of Produced KWH")+scale_colour_continuous("% Total Production",low="yellow",high="red")+scale_size(guide="none")
+efficiency<-deveff
+#1 gigawatt#
+require(sp)#
+ratedgoal<-1000000#
+swm2<-1#
+require(ggmap)#
+efficiency<-deveff
+number_of_devices<-ratedgoal/(swm2*efficiency)
+number_of_devices
+usa<-get_map(location=as.vector(c(-125.0011, 24.9493, -66.9326, 49.5904)), source="google", zoom=4, color ="bw")
+usa
+geopulled
+geobasic<-as(geopulled,"data.frame")
+geobasic$MWh<-geobasic$KWH*.001
+geobasic$GWh<-geobasic$MWh*.001
+locationsandpotential<-ggmap(usa, extent = 'panel', maprange = TRUE)+geom_point(data=geobasic,aes(x=lon,y=lat,colour=GWh, size=percent))+scale_colour_gradient(low="blue",high="red")+ggtitle("Locations of US Army Installations and Solar Energy Potential")+scale_size(guide=FALSE)
+locationsandpotential
+ggsave("geo/mapofinstallations.png")
+geobasic
+require(RCurl)
+origins<-paste(manufacture_locations,collapse="|")
+origins<-paste(manufacture_locations,collapse="|")
+part1<-"https://maps.googleapis.com/maps/api/distancematrix/json?"
+part2<-"origins="
+part2a<-origins
+part3<-"&destinations="
+part4<-"&mode=driving&key="
+google_API_KEY<-"AIzaSyAslkcbAgUfvwcaHFhwD_hCnak9Dg82yNo"
+beg<-seq(1,nrow(partset),10)
+end<-c(seq(10,nrow(partset),10),nrow(partset))
+partset$city<-NA
+partset<-read.csv("Model_files/partset.csv")
+summary(partset)
+distance<-data.frame(partset$site_lon)
+head(distance)
+distance$km<-partset$distance/1000
+head(distance)
+head(distance)
+for(i in 1:nrow(distance)){
+if(is.na(distance$km[i])==TRUE){distance$km[i]<-median(na.omit(distance$km))
+}
+}
+head(distance)
+colnames(distance)<-c("site_lon","min_km")
+dat<-merge(fullsetb, distance, by="site_lon")
+head(dat)
+dat
+head(fullsetb
+head(fullsetb)
+head(fullsetb)
+dat<-merge(fullsetb, distance, by.x="site_lon", all.x=TRUE)
+head(dat
+head(dat)
+head(dat)
+kilometers_shipping<-sum(dat$min_km)
+kilometers_shipping
+summary(dat)
+head(distance)
+colnames(distance)<-c("site_lon","min_km")
+dat<-merge(fullsetb, distance, by.x="site_lon", all.x=TRUE)
+summary(dat)
+kilometers_shipping
+sum(dat$min_km)
+head(distance)
+summary(dat)
+distance<-data.frame(partset$site_lon)#
+head(distance)#
+distance$km<-partset$distance/1000     #
+head(distance)#
+for(i in 1:nrow(distance)){#
+  if(is.na(distance$km[i])==TRUE){distance$km[i]<-median(na.omit(distance$km))#
+  }#
+}#
+head(distance)
+summary(distance)
+colnames(distance)<-c("site_lon","min_km")
+dat<-merge(fullsetb, distance, by.x="site_lon", all.x=TRUE)
+summary(dat)
+summary(fullsetb)
+head(distance)
+summary(distance)
+summary(fullsetb)
+dat<-merge(fullsetb, distance, by.x="site_lon", all.x=TRUE)
+summary(fullsetb)
+summary(dat)
+dat<-merge(fullsetb, distance, by="site_lon", all.x=TRUE)
+summary(dat)
+dat<-merge(fullsetb, distance, by="site_lon")
+summary(fullsetb)
+summary(dat)
+help(merge)
+sum(fullsetb$totkwh)
+sum(fullsetb$kwh)
+sum(dat$kwh)
+require(sp)#
+ratedgoal<-1000000#
+swm2<-1#
+require(ggmap)#
+efficiency<-deveff#
+number_of_devices<-ratedgoal/(swm2*efficiency)
+number_of_devices
+geobasic<-as(geopulled,"data.frame")
+geobasic$MWh<-geobasic$KWH*.001
+geobasic$GWh<-geobasic$MWh*.001
+locationsandpotential<-ggmap(usa, extent = 'panel', maprange = TRUE)+geom_point(data=geobasic,aes(x=lon,y=lat,colour=GWh, size=percent))+scale_colour_gradient(low="blue",high="red")+ggtitle("Locations of US Army Installations and Solar Energy Potential")+scale_size(guide=FALSE)
+summary(partset)
+head(partset)
+distance<-data.frame(partset$site_lon)
+head(distance)
+distance$km<-partset$distance/1000
+head(distance)
+summary(distance)
+median(na.omit(distance$km)
+)
+for(i in 1:nrow(distance)){#
+  if(is.na(distance$km[i])==TRUE){distance$km[i]<-median(na.omit(distance$km))#
+  }#
+}
+head(distance)
+colnames(distance)<-c("site_lon","min_km")
+summary(distance)
+require(rjson)#
+#
+###4 KW System Size#
+device_rating<-(deveff*1000)*m2size#
+panels<-(System_Size*1000)/device_rating#
+area_m2<-m2size*panels#
+reps=desired_capacity_kw/System_Size#
+#
+# #
+# locs<-read.csv("geo/locates.csv")#
+# head(locs)#
+# require(ggmap)#
+# locs$Base<-as.character(locs$Base)#
+# #
+# geos<-geocode(locs$Base,output=c("latlon"))#
+# require(sp)#
+# geopulled<-data.frame(geos[1],geos[2])#
+# head(geopulled)#
+# geopulled$KWH<-locs$KWH#
+# geopulled$percent<-geopulled$KWH/sum(geopulled$KWH)#
+# geopulled$Base<-locs$Base#
+# geopulled<-na.omit(geopulled)#
+# head(geopulled)#
+# rownames(geopulled)<-seq(1,nrow(geopulled),1)#
+# coordinates(geopulled)<-cbind(geopulled$lon,geopulled$lat)#
+# #
+# #
+# NRELapikey<-"CvvpGjrazEu00pgknfaVkLqfaj7Xla29LlDEcR2H"#
+# #
+# geopulled$lattilt<-NA#
+# weathdat<-list()#
+# for(i in 1:nrow(geopulled)){#
+#   litx<-coordinates(geopulled)[,1][i]#
+#   lity<-coordinates(geopulled)[,2][i]#
+#   parta<-"http://developer.nrel.gov/api/solar/data_query/v1.json?api_key="#
+#   partb<-"&lat="#
+#   latstr<-lity#
+#   partc<-"&lon="#
+#   longstr<-litx#
+#   json_file<-paste(parta,NRELapikey,partb,latstr,partc,longstr, sep="")#
+#   json_data<-fromJSON(file=json_file)#
+#   weathdat[[i]]<-json_data$output#
+#   Sys.sleep(.3)#
+# }#
+# #
+# soldat<-list()#
+# for(i in 1:nrow(geopulled)){#
+#   litx<-coordinates(geopulled)[,1][i]#
+#   lity<-coordinates(geopulled)[,2][i]#
+#   parta<-"http://developer.nrel.gov/api/solar/solar_resource/v1.json?api_key="#
+#   partb<-"&lat="#
+#   latstr<-lity#
+#   partc<-"&lon="#
+#   longstr<-litx#
+#   json_file<-paste(parta,NRELapikey,partb,latstr,partc,longstr, sep="")#
+#   json_data<-fromJSON(file=json_file)#
+#   soldat[[i]]<-json_data$outputs#
+#   print(i)#
+# }#
+# soldat[[1]]#
+# for(i in 1:nrow(geopulled)){#
+#   if(soldat[[i]]$avg_lat_tilt=="no data") {geopulled$lattilt[i]<-5.29}#
+#   else{geopulled$lattilt[i]<-soldat[[i]]$avg_lat_tilt$annual[1]}#
+#   print(i)#
+# }#
+# #
+# geopulled$id<-1:nrow(geopulled)#
+#write.csv(geopulled, "Model_files/geopulled.csv")#
+#
+geopulled<-read.csv("Model_files/geopulled.csv")#
+#
+site_ids<-sample(geopulled$id,reps,replace=TRUE,prob=geopulled$percent)#
+#
+site_lattilts<-geopulled[site_ids,]$lattilt#
+site_lon<-geopulled[site_ids,]$lon#
+site_lat<-geopulled[site_ids,]$lat#
+derate<-.77#
+efficiency<-deveff#
+kwh<-site_lattilts*area_m2*derate*efficiency*365#
+outs<-data.frame(site_lon,site_lat,kwh)#
+totalkwhperlon<-tapply(outs$kwh,factor(outs$site_lon),sum)#
+new_lon<-row.names(data.frame(tapply(outs$kwh,factor(outs$site_lon),sum)))#
+results<-data.frame(new_lon,totalkwhperlon)#
+results$new_lon<-as.numeric(as.character(new_lon))#
+colnames(results)<-c("site_lon","totkwh")#
+fullset<-merge(outs,results, by=c("site_lon"))#
+require(sp)#
+coordinates(fullset)<-c("site_lon","site_lat")#
+fullsetb<-as(fullset,"data.frame")#
+partset<-unique(fullsetb)#
+kw_actual<-sum(partset$totkwh, na.rm=TRUE)/(365*24)#
+kwh_produced_year<-sum(partset$totkwh)
+summary(fullsetb)
+#1 gigawatt#
+require(sp)#
+ratedgoal<-1000000#
+swm2<-1#
+require(ggmap)#
+efficiency<-deveff#
+number_of_devices<-ratedgoal/(swm2*efficiency)#
+usa<-get_map(location=as.vector(c(-125.0011, 24.9493, -66.9326, 49.5904)), source="google", zoom=4, color ="bw")#
+#
+geobasic<-as(geopulled,"data.frame")#
+geobasic$MWh<-geobasic$KWH*.001#
+geobasic$GWh<-geobasic$MWh*.001#
+#
+locationsandpotential<-ggmap(usa, extent = 'panel', maprange = TRUE)+geom_point(data=geobasic,aes(x=lon,y=lat,colour=GWh, size=percent))+scale_colour_gradient(low="blue",high="red")+ggtitle("Locations of US Army Installations and Solar Energy Potential")+scale_size(guide=FALSE)#
+locationsandpotential#
+ggsave("geo/mapofinstallations.png")#
+#
+#ggmap(usa, extent = 'panel', maprange = TRUE)+geom_point(data=unique(fullsetb),aes(x=site_lon,y=site_lat,colour=totkwh, size=totkwh))+scale_colour_gradient(low="blue",high="red")+ggtitle("Locations of US Army Installations and Solar Energy Potential")+scale_size(guide=FALSE)#
+#
+#add thing for each site that as installations increase the likelihood of installing more decreases#
+####This is the code for the transportation part of the model#
+###What is the manufacturing location?########
+require(RCurl)#
+origins<-paste(manufacture_locations,collapse="|")#
+part1<-"https://maps.googleapis.com/maps/api/distancematrix/json?"#
+part2<-"origins="#
+part2a<-origins#
+part3<-"&destinations="#
+part4<-"&mode=driving&key="#
+google_API_KEY<-"AIzaSyAslkcbAgUfvwcaHFhwD_hCnak9Dg82yNo"#
+beg<-seq(1,nrow(partset),10)#
+end<-c(seq(10,nrow(partset),10),nrow(partset))#
+partset$city<-NA
+partset<-read.csv("Model_files/partset.csv")
+summary(partset)
+distance<-data.frame(partset$site_lon)
+head(distance)
+distance$km<-partset$distance/1000
+summary(distance)
+for(i in 1:nrow(distance)){
+if(is.na(distance$km[i])==TRUE){distance$km[i]<-median(na.omit(distance$km))
+}
+}
+head(distance)
+colnames(distance)<-c("site_lon","min_km")
+summary(distance)
+dat<-merge(fullsetb, distance, by="site_lon")
+summary(fullsetb)
+sum(fullsetb$kwh)
+sum(dat$kwh)
+summary(fullsetb)
+nrow(fullsetb)
+summary(fullsetb)#
+sum(fullsetb$kwh)#
+sum(dat$kwh)#
+kilometers_shipping<-sum(dat$min_km)#
+kilometers_shipping#
+geo_origin<-geocode(manufacture_locations,output=c("latlon"))#
+geo_origin$city<-manufacture_locations#
+dum_dat<-merge(partset,geo_origin, by="city")#
+dum_dat$id<-1:nrow(dum_dat)#
+#
+top<-dum_dat[,c(10,2,3,5)]#
+bottom<-dum_dat[,c(10,8,9,5)]#
+colnames(top)<-c("id","lon","lat","totkwh")#
+colnames(bottom)<-c("id","lon","lat","totkwh")#
+paths<-rbind(top,bottom)#
+#Phoenix#
+#Los Angeles#
+#Denver#
+#Dallas#
+#San Antonio#
+#Atlanta#
+#Chicago
+mapsusa<-ggmap(usa, extent = 'panel', maprange = TRUE)
+mapship<-mapsusa+geom_path(data=paths,aes(x=lon,y=lat,group=id, colour=totkwh/sum(totkwh,na.rm=TRUE),size=totkwh/sum(totkwh,na.rm=TRUE)), lineend="round")+ggtitle("Map of Origins and Destinations for PV Panels\n and % of Produced KWH")+scale_colour_continuous("% Total Production",low="yellow",high="red")+scale_size(guide="none")
+mapship
+head(paths)
+ggplot()+geom_path(data=paths,aes(x=lon,y=lat,group=id, colour=totkwh/sum(totkwh,na.rm=TRUE),size=totkwh/sum(totkwh,na.rm=TRUE)), lineend="round")+ggtitle("Map of Origins and Destinations for PV Panels\n and % of Produced KWH")+scale_colour_continuous("% Total Production",low="yellow",high="red")+scale_size(guide="none")
+head(paths)
+top<-dum_dat[,c(10,2,3,5)]
+head(top)
+head(bottom)
+dum_dat<-merge(partset,geo_origin, by="city")
+dum_dat$id<-1:nrow(dum_dat)
+head(top)
+head(dum_dat)
+dum_dat<-merge(partset,geo_origin, by="city")
+dum_dat<-merge(partset,geo_origin, by="city")
+dum_dat$id<-1:nrow(dum_dat)
+top<-dum_dat[,c(11,3,4,6)]
+bottom<-dum_dat[,c(11,9,10,6)]
+colnames(top)<-c("id","lon","lat","totkwh")
+colnames(bottom)<-c("id","lon","lat","totkwh")
+paths<-rbind(top,bottom)
+ggplot()+geom_path(data=paths,aes(x=lon,y=lat,group=id, colour=totkwh/sum(totkwh,na.rm=TRUE),size=totkwh/sum(totkwh,na.rm=TRUE)), lineend="round")+ggtitle("Map of Origins and Destinations for PV Panels\n and % of Produced KWH")+scale_colour_continuous("% Total Production",low="yellow",high="red")+scale_size(guide="none")
+mapship<-mapsusa+geom_path(data=paths,aes(x=lon,y=lat,group=id, colour=totkwh/sum(totkwh,na.rm=TRUE),size=totkwh/sum(totkwh,na.rm=TRUE)), lineend="round")+ggtitle("Map of Origins and Destinations for PV Panels\n and % of Produced KWH")+scale_colour_continuous("% Total Production",low="yellow",high="red")+scale_size(guide="none")
+mapship
+mapship
+help(ggmap)
