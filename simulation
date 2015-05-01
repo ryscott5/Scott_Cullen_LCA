@@ -1,0 +1,372 @@
+
+setwd("H:CZTS_model/CZTS_model")
+getwd()
+
+randomplacesample=TRUE
+require(RCurl)
+require(triangle)
+require(reshape2)
+options(RCurlOptions = list(cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")))
+source("impact-methods/rOpenLCA.R")
+
+require(ggthemes)
+getwd()
+N=1000
+###Enter location of CZTS_model folder
+#What is the anticipated device efficiency
+fulllistrates=data.frame()
+set.seed(10)
+deveffs<-rtriangle(N,.08,.2,.105)
+basegng<-as.numeric(read.csv("Graphene/technology_matrix.csv", header=FALSE,stringsAsFactors=FALSE)[29,3])
+basegng
+natgasval<-rtriangle(N,basegng,-1,basegng)
+help(rtriangle)
+graphite_devicet<-runif(N,1,25)
+for(repeatsa in 1:N){
+  deveff<-deveffs[repeatsa]
+  graphite_device_thickness<-graphite_devicet[repeatsa]
+  #How big is each device?
+  m2size<-1
+  #Desired End Capacity in Kilowatts Installed
+  desired_capacity_kw<-1000000
+  #Size of each installation
+  System_Size<-4
+  #Runs Code for Base Locations, returns actual kwh/year for year 1 that will be produced given the capacity and the geocodes of the locations.
+  require(rjson)
+  ###4 KW System Size
+  device_rating<-(deveff*1000)*m2size
+  panels<-(System_Size*1000)/device_rating
+  panels
+  area_m2<-m2size*panels
+  reps=desired_capacity_kw/System_Size
+  geopulled<-read.csv("Model_files/geopulled.csv")
+  site_ids<-sample(geopulled$id,reps,replace=TRUE,prob=geopulled$percent)
+  site_lattilts<-geopulled[site_ids,]$lattilt
+  site_lon<-geopulled[site_ids,]$lon
+  site_lat<-geopulled[site_ids,]$lat
+  derate<-.77
+  efficiency<-deveff
+  kwh<-site_lattilts*area_m2*derate*efficiency*365
+  outs<-data.frame(site_lon,site_lat,kwh)
+  totalkwhperlon<-tapply(outs$kwh,factor(outs$site_lon),sum)
+  new_lon<-row.names(data.frame(tapply(outs$kwh,factor(outs$site_lon),sum)))
+  results<-data.frame(new_lon,totalkwhperlon)
+  results$new_lon<-as.numeric(as.character(new_lon))
+  colnames(results)<-c("site_lon","totkwh")
+  fullset<-merge(outs,results, by=c("site_lon"))
+  require(sp)
+  coordinates(fullset)<-c("site_lon","site_lat")
+  fullsetb<-as(fullset,"data.frame")
+  partset<-unique(fullsetb)
+  kw_actual<-sum(partset$totkwh, na.rm=TRUE)/(365*24)
+  kwh_produced_year<-sum(partset$totkwh)
+  
+  ##Annual Produced KWH
+  kw_actual/desired_capacity_kw
+  kwh_produced_year
+  
+  #What is the manufacture location? Enter in form c("PHOENIX+AZ","ATLANTA+GA")
+  
+  manufacture_locations<-c("Phoenix+AZ","Atlanta+GA","Dallas+TX")
+  
+  #1 gigawatt
+  require(sp)
+  ratedgoal<-desired_capacity_kw
+  swm2<-m2size
+  # require(ggmap)
+  number_of_devices<-ratedgoal/(swm2*efficiency)
+  
+  require(RCurl)
+  
+  partset<-read.csv("Model_files/partset.csv")
+  summary(partset)
+  
+  ##distance####
+  distance<-data.frame(partset$site_lon)
+  head(distance)
+  
+  if(randomplacesample==TRUE){
+    res<-read.csv("geo/pointmatrix.csv")
+    fullcount1000<-read.csv("geo/countyfileformodel.csv")
+    fullcount1000$perc<-fullcount1000$emp/sum(as.numeric(fullcount1000$emp))
+    nummansites<-round(runif(1,3,10))
+    whichsites<-sample(1:nrow(fullcount1000),nummansites, replace=FALSE, prob=fullcount1000$perc)
+    counties<-fullcount1000[whichsites,]
+    res<-data.frame(res)
+    res$row<-1:nrow(res)
+    short<-res[,whichsites]
+    short$row<-1:nrow(res)
+    short2<-melt(short,id="row")
+    partset$distance<-data.frame(tapply(short2$value,short2$row,min))[,1]
+  }
+  
+  distance$km<-partset$distance/1000     
+  head(distance)
+  for(i in 1:nrow(distance)){
+    if(is.na(distance$km[i])==TRUE){distance$km[i]<-median(na.omit(distance$km))
+    }
+  }
+  head(distance)
+  colnames(distance)<-c("site_lon","min_km")
+  dat<-merge(fullsetb, distance, by="site_lon")
+  head(dat)
+  kilometers_shipping<-sum(dat$min_km)
+  kilometers_shipping
+  
+  kilometers_shipping
+  
+  source("Model_files/normalization.R",echo=TRUE)
+  
+  ##shipping_code
+  (10*10^-9)*230
+  
+  Thickness_of_graphene<-(7*10^-7)
+  volumeper<-(m2size*100)^2*Thickness_of_graphene
+  volumeper
+  gramsperrun<-volumeper*2.26
+  panel_mass_graphene<-gramsperrun/1000
+  tkm_graphene<-sum(dat$min_km*((panels*panel_mass_graphene)/1000))
+  
+  am<-read.csv("transport/technology_matrix.csv", header=FALSE, stringsAsFactors=FALSE)
+  
+  bmat<-read.csv("transport/intervention_matrix.csv", header=TRUE,stringsAsFactors=FALSE)
+  
+  fv<-c(tkm_graphene)
+  lcres<-lci(am,bmat,fv)
+  lcres[[1]]
+  tport<-lciaformat(lcres[[1]])
+  
+  tportf<-lciaTRACI(tport)
+  graphene_shiptobase<-TRACIsum(tportf)
+  
+  
+  panelmass_graphitep<-(graphite_device_thickness*10^-6)*runif(1,2090,2230)
+  
+  #2.09 to 2.23
+  tkm_graphitepaint<-sum(dat$min_km*((panels*panelmass_graphitep)/1000))
+  fv<-c(tkm_graphitepaint)
+  tport<-lciaformat(lci(am,bmat,fv)[[1]])
+  tportf<-lciaTRACI(tport)
+  graphitepaint_shiptobase<-TRACIsum(tportf)
+  
+  panelmass_molybdenum<-0.0102
+  tkm_molybdenum<-sum(dat$min_km*(panels*panelmass_molybdenum)/1000)
+  fv<-c(tkm_molybdenum)
+  tport<-lciaformat(lci(am,bmat,fv)[[1]])
+  tportf<-lciaTRACI(tport)
+  molybdenum_shiptobase<-TRACIsum(tportf)
+  help(data.frame)
+  data.frame(molybdenum_shiptobase)
+  jt<-data.frame("acidification","ecotoxicity","eutrophication","globalwarming","ozonedepletion","photochemicaloxidation","carcinogenics","non.carcinogentics","respiratory.effects")
+  colnames(jt)<-impfacts
+  jt[,1:9]<-as.numeric(jt[,1:9])
+  jt[1,]<-t(molybdenum_shiptobase[,2]/normfacts)
+  jt[2,]<-t(graphene_shiptobase[,2]/normfacts)
+  jt[3,]<-t(graphitepaint_shiptobase[,2]/normfacts)
+  jt$labels<-c("Moly","Graphene","Graphite")
+  head(jt)
+  require(reshape2)
+  jnew<-melt(jt,id="labels")
+  
+  #Number of "installations" that are needed at set size to achieve desired capacity
+  print(reps)
+  
+  ###LCA Results
+  ###########################################################################################################source("Graphite Paint/graphite_paint_model.R",echo=TRUE)
+  #source("impact-methods/rOpenLCA.R")
+  
+  #setwd("/Users/Ryan/Google Drive/CZTS_model")
+  
+  mcn<-1
+  #Rmemeber to Specify number of MC trials
+  
+  am<-read.csv("Graphite Paint/technology_matrix.csv", header=FALSE, stringsAsFactors=FALSE)
+  
+  am
+  bm<-read.csv("Graphite Paint/intervention_matrix.csv", header=TRUE,stringsAsFactors=FALSE)
+  
+  #native thickness is 25um. Some evidence 5um might be achievable.
+  thickness=graphite_device_thickness
+  q=25/thickness
+  fv<-c((panels*reps)/q, rep(0,nrow(am)-1))
+  impfacts<-c("acidification","ecotoxicity","eutrophication","globalwarming","ozonedepletion","phytochemicaloxidation","carcinogenics","non.carcinogenics","respiratory.effects")
+  runouts<-data.frame(impfacts)
+  
+  
+  #Specify uncertainty distribution
+  
+  #runs model all of the uncertain paramters must be assigned to values in the a or b matrix
+  
+  #target uncertainty to matrix
+  #Matrix Inverse and TRACI impacts out
+  minversegp<-lci(am,bm,fv)
+  
+ 
+  format<-lciaformat(minversegp[[1]])
+  b<-lciaTRACI(format)
+  runouts[,2]<-TRACIsum(b)[,2]
+  runouts
+  
+  graphite_total<-runouts[,2]+graphitepaint_shiptobase[,2]
+  
+  
+  depletionscoregraphite<-sum(lciaDEPLETE(format)[,2])
+  
+  process_gp<-(runouts[,2]/graphite_total)
+  
+  transport_gp<-(graphitepaint_shiptobase[,2]/graphite_total)
+  
+  graphitecost<-cost_pw_calculator(minversegp,TRUE,"Graphite",naicsname=FALSE,uselocal=TRUE)
+  
+  
+  
+  
+  
+  
+  
+  
+  #################################################################################################source("Graphene/graphene.R",echo=TRUE)
+  
+  #source("impact-methods/rOpenLCA.R")
+  
+  #setwd("/Users/Ryan/Google Drive/CZTS_model/")
+  am<-read.csv("Graphene/technology_matrix.csv", header=FALSE,stringsAsFactors=FALSE)
+  old<-as.numeric(am[29,3])
+  am[29,3]<-natgasval[repeatsa]
+  bm<-read.csv("Graphene/intervention_matrix.csv", header=TRUE,stringsAsFactors=FALSE)
+  
+  fv<-c(panels*reps*panel_mass_graphene,rep(0,nrow(am)-1))
+  
+  
+  impfacts<-c("acidification","ecotoxicity","eutrophication","globalwarming","ozonedepletion","photochemicaloxidation","carcinogenics","non.carcinogenics","respiratory.effects")
+  
+  runouts<-data.frame(impfacts)
+  
+  #Specify uncertainty distribution
+  
+  #runs model all of the uncertain paramters must be assigned to values in the a or b matrix
+  
+  
+  minverse<-lci(am,bm,fv)
+  format<-lciaformat(minverse[[1]])
+  b<-lciaTRACI(format)
+  
+  runouts[,2]<-TRACIsum(b)[,2]
+  runouts[,2]<-round(runouts[,2],digits=7)
+  runouts
+  graphene_total<-runouts[,2]+graphene_shiptobase[,2]
+ 
+  
+  graphenedepletionscore<-sum(lciaDEPLETE(lciaformat(minverse[[1]]))[,2])
+  graphenecost<-cost_pw_calculator(minverse,TRUE,"Graphene",naicsname=FALSE,uselocal=TRUE)
+  
+  #############################################################################################################################source("Molybdenum_glass_ito/Molybdenum_glass_ito.R",echo=TRUE)
+  
+  #source("impact-methods/rOpenLCA.R")
+  
+  moly_mass_device<-.01022*100*100*.0001
+  #Specify number of MC trials
+  
+  am<-read.csv("Molybdenum_glass_ito/technology_matrix.csv", header=FALSE,stringsAsFactors=FALSE)
+  
+  bm<-read.csv("Molybdenum_glass_ito/intervention_matrix.csv", header=TRUE,stringsAsFactors=FALSE)
+  
+  fv<-c(panels*reps*moly_mass_device,rep(0,nrow(am)-1))
+  fv
+  
+  
+  impfacts<-c("Acidification","Ecotoxicity","Eutrophication","Global Warming","Ozone Depletion","Photochemicaloxidation","Carcinogenic","Non Carcinogenic","Respiratory Effects")
+  runouts<-data.frame(impfacts)
+  
+  
+  #runs model all of the uncertain paramters must be assigned to values in the a or b matrix
+  
+  #Matrix Inverse and TRACI impacts out
+  
+  minv<-lci(am,bm,fv)
+  runouts[,2]<-TRACIsum(lciaTRACI(lciaformat(minv[[1]])))[,2]
+  runouts
+  
+  molybdenum_total<-runouts[,2]+molybdenum_shiptobase[,2]
+  
+  nform<-lciaformat(minv[[1]])
+  depletionmolyscore<-sum(lciaDEPLETE(nform)[,2])
+  
+  
+  molybdenumcost<-cost_pw_calculator(minv,TRUE,"Molybdenum",naicsname=FALSE,uselocal=TRUE)
+  
+  ##Load Normalization Data
+  source("Model_files/normalization.R",echo=TRUE)
+  
+  #############################################################################Conduct full LCA and analyze results
+  
+
+  
+  partlca<-data.frame("acidification","ecotoxicity","eutrophication","globalwarming","ozonedepletion","photochemicaloxidation","carcinogenics","non.carcinogentics","respiratory.effects")
+  colnames(partlca)<-impfacts
+  partlca[,1:ncol(partlca)]<-as.numeric(partlca[,1:ncol(partlca)])
+  partlca[1,]<-graphite_total/(normfacts)
+  partlca[2,]<-molybdenum_total/(normfacts)
+  partlca[3,]<-graphene_total/(normfacts)
+  partlca$material<-c("graphite","molybdenum","graphene")
+  pmlca<-melt(partlca,id="material")
+  require(xtable)
+  rownames(partlca)<-partlca$material
+  partlca<-partlca[,1:9]
+  levels(pmlca$variable)<-c("Acidification (kg SO2 eq)","Ecotoxicity (kg 2-4D eq","Eutrophication (kg N eq)","Global Warming (kg CO2 eq)","Ozone Depletion (kg CFC-11 eq)","Smog (kg O3 eq)","Carcinogens (kg Benz eq)","Non Carcinogens (kg Tol eq)","Respiratory (kg PM2.5 eq)")
+  #ggsave("Figures/normvalue.png",resultgraph1,width=8,height=5,units=c("in"))
+  nonelca<-partlca
+  nonelca[1,]<-nonelca[1,]*normfacts
+  nonelca[2,]<-nonelca[2,]*normfacts
+  nonelca[3,]<-nonelca[3,]*normfacts
+  nonelca$material<-c("graphite","molybdenum","graphene")
+  unnormalized<-melt(nonelca,id="material")
+  levels(unnormalized$variable)<-c("Acidification (kg SO2 eq)","Ecotoxicity","Eutrophication (kg N eq)","Global Warming (kg CO2 eq)","Ozone Depletion (kg CFC-11 eq)","Smog (kg O3 eq)","Carcinogens (kg Benz eq)","Non Carcinogens (kg Tol eq)","Respiratory (kg PM2.5 eq)")
+  
+  depletetab<-c(depletionscoregraphite,depletionmolyscore,graphenedepletionscore)
+  
+  performancetab<-c(1,2,1)
+  
+  
+  
+  #NEW PERFORMANCE###
+  tbase<-rnorm(mean=.023,sd=.003/1.96,n=1)
+  #conversion
+  tlow<-rnorm(mean=.038,sd=.004/1.96,n=1)
+  thigh<-rnorm(mean=.057,sd=.002/1.96,n=1)
+  
+  #lowbase<--tlow-tbase
+  #highlow<--thigh-tbase
+  #highmid<--thigh-tlow
+  #differences<-data.frame(lowbase,highlow,highmid)
+  performancetab<-c(tbase-tlow,tbase-tbase,tbase-thigh)
+                                                                                
+                                                                                help(rnorm)
+                                                                                
+  
+  developmentrisktab<-c(1,0,2)
+  
+  costtab<-c(graphitecost[[1]],molybdenumcost[[1]],graphenecost[[1]])
+  outside<-data.frame(material=c("graphite","molybdenum","graphene"),depletion=depletetab,cost=costtab,performance=performancetab,developmentrisk=developmentrisktab)
+  #write.csv(outside,"/Users/Ryan/cztsmdata/outside.csv")
+  
+  
+  nonelca2<-nonelca
+  nonelca2$Cost<-costtab
+  nonelca2$Depletion<-depletetab
+  nonelca2$developmentrisk<-developmentrisktab
+  nonelca2$performance<-performancetab
+  nonelca2$efficiency=deveff
+  nonelca2$num_manuf_sites=nummansites
+  nonelca2$graphitethick<-graphite_device_thickness
+  nonelca2$natgasval<-natgasval[repeatsa]
+  nonelca2$kilometers_shipping=kilometers_shipping
+  mnlca<-melt(nonelca2, id=c("material","efficiency","graphitethick","natgasval","kilometers_shipping","num_manuf_sites"))
+  fulllistrates<-rbind(fulllistrates,mnlca)
+  print(repeatsa)
+}
+
+
+
+
+write.csv(fulllistrates, "fulllistrates.performanceupdate.csv")
