@@ -38,7 +38,7 @@ part2<-"origins="
 part2a<-origins
 part3<-"&destinations="
 part4<-"&mode=driving&key="
-google_API_KEY<-"AIzaSyAslkcbAgUfvwcaHFhwD_hCnak9Dg82yNo"
+google_API_KEY<-PUTKEYHERE
 
 
 beg<-seq(1,nrow(partset),10)
