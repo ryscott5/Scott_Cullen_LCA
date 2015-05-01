@@ -44,7 +44,7 @@ part2a<-origins
 part3<-"&destinations="
 part3a<-dest_string
 part4<-"&mode=driving&key="
-google_API_KEY<-"AIzaSyAslkcbAgUfvwcaHFhwD_hCnak9Dg82yNo"
+google_API_KEY<-PUTKEYHERE
 dir_address<-paste(part1,part2,part2a,part3,part3a,part4,google_API_KEY,sep="")
 file=getURL(dir_address)
 file
