@@ -3,7 +3,6 @@ require(sp)
 ratedgoal<-1000000
 swm2<-1
 
-efficiency<-.15
 number_of_devices<-ratedgoal/(swm2*efficiency)
 
 
